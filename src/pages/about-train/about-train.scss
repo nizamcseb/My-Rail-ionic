@@ -1,0 +1,28 @@
+page-about-train {
+.center{
+	text-align: center;
+}
+.header .col {
+  background-color:lightgrey;
+}
+.lg-bagnd{
+  background-color:lightgrey;
+  border-bottom: solid 1px grey;
+}
+.avail-clr{
+	background-color:green;
+}
+.col {
+  border: solid 1px grey;
+  border-bottom-style: none;
+  border-right-style: none;
+}
+
+.col:last-child {
+  border-right: solid 1px grey;
+}
+
+.row:last-child .col {
+  border-bottom: solid 1px grey;
+}
+}

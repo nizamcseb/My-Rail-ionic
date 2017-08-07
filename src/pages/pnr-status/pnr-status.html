@@ -1,0 +1,57 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Pnr Status</ion-title>		
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-item>
+		<ion-input [(ngModel)]="pnrnumber" type="number" placeholder="Enter 10 digit Pnr number" required></ion-input>
+	</ion-item>
+	<button ion-button color="secondary" (click)="pnrCheck()" round small>Check</button>
+<div *ngIf="statusResult.response_code == 200">
+	<!-- <div class="row header">
+		<div class="col"><b>CHART NOT PREPARED YET</b></div>
+	</div> -->
+	<div class="row header">
+		<div class="col col-lg-3"><b>PNR NO</b></div>	
+		<div class="col col-lg-3">{{statusResult.pnr}}</div>
+		<div class="col col-lg-3"><b>Date of journy</b></div>
+		<div class="col col-lg-3">{{statusResult.doj}}</div>
+	</div>
+	<div class="row header">
+		<div class="col col-lg-3"><b>From Station</b></div>	
+		<div class="col col-lg-3">{{from_station.name}} ({{from_station.code}})</div>
+		<div class="col col-lg-3"><b>To Station</b></div>	
+		<div class="col col-lg-3">{{to_station.name}} ({{to_station.code}})</div>
+	</div>
+	<div class="row header">
+		<div class="col col-lg-3"><b>Boarding Point</b></div>	
+		<div class="col col-lg-3">{{boarding_point.name}} ({{boarding_point.code}})</div>
+		<div class="col col-lg-3"><b>Reservation Upto</b></div>	
+		<div class="col col-lg-3">{{reservation_upto.name}} ({{reservation_upto.code}})</div>
+	</div>
+	<div class="row header">
+		<div class="col col-lg-3"><b>Train</b></div>	
+		<div class="col col-lg-3">{{train.name}} ({{train.number}})</div>
+		<div class="col col-lg-3"><b>Journy Class</b></div>	
+		<div class="col col-lg-3">{{journey_class.name}} ({{journey_class.code}})</div>
+	</div>
+	<br>
+	<div class="row header">
+		<div class="col"><b>Passenger</b></div>
+		<div class="col"><b>Coach Position</b></div>
+		<div class="col"><b>Booking Status</b></div>
+		<div class="col"><b>Current Status</b></div>
+	</div>	
+
+	<div class="row" *ngFor="let pstatus of passengers">
+		<div class="col">{{pstatus.no}}</div>
+		<div class="col">{{pstatus.coach_position}}</div>
+		<div class="col">{{pstatus.booking_status}}</div>
+		<div class="col">{{pstatus.current_status}}</div>
+	</div>	   
+</div>
+
+
+</ion-content>

@@ -1,0 +1,112 @@
+<ion-content padding class="bg">
+	<ion-card>
+
+		<img src="assets/imgs/seats-3.jpg"/>
+
+		<ion-card-content>
+			<ion-card-title>
+				<ion-icon name="train" item-start large></ion-icon><b> {{trainData.trainName}} ({{trainData.trainNumber}})</b>
+			</ion-card-title>
+			<ion-item>
+				<ion-grid>
+					<ion-row class="col-12">
+						<ion-col class="col-6 table-border">
+							<ion-col class="col-6">
+								<b>FROM</b>
+							</ion-col>
+							<ion-col class="col-6">
+							{{trainData.fromStationName}}({{trainData.fromStationCode}}) <ion-icon name='pin'></ion-icon>
+							</ion-col>
+						</ion-col>
+
+						<ion-col class="col-6 table-border" > 
+							<ion-col class="col-6">
+								<b>TO</b>
+							</ion-col>
+							<ion-col class="col-6">
+								{{trainData.toStationName}}({{trainData.toStationCode}}) <ion-icon name='pin' color="danger"></ion-icon>
+							</ion-col>
+						</ion-col>
+					</ion-row>
+					<ion-row class="col-12">					
+						<ion-col class="col-3 table-border">
+							<ion-col class="col-6">
+								<b>CLASS</b>
+							</ion-col>
+							<ion-col class="col-6">
+								{{availabilityData.journey_class.name}} ({{availabilityData.journey_class.code}})
+							</ion-col>
+						</ion-col>
+						<br>
+						<ion-col class="col-3 table-border">
+							<ion-col class="col-6">
+								<b>QUOTA</b>
+							</ion-col>
+							<ion-col class="col-6">
+								{{availabilityData.quota.name}} ({{availabilityData.quota.code}})
+							</ion-col>
+						</ion-col>
+						<ion-col class="col-3 table-border">
+							<ion-col class="col-6">
+								<b>TIMING</b>
+							</ion-col>
+							<ion-col class="col-6">
+								{{trainData.srcDepTime}} to {{trainData.dstArrvlTime}}
+							</ion-col>
+						</ion-col>
+						<ion-col class="col-3 table-border">
+							<ion-col class="col-6">
+								<b>DURATION</b>
+							</ion-col>
+							<ion-col class="col-6">
+								{{trainData.totalDuration}}
+							</ion-col>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-item>
+			<ion-item>
+				<ion-row text-center>
+					<ion-col class="table-border">
+						<b>Date</b>
+					</ion-col>
+					<ion-col class="table-border">
+						<b>Status</b>
+					</ion-col>
+				</ion-row>
+				<ion-row *ngFor="let avail of availabilityData.availability">
+					<ion-col class="table-border">
+						{{avail.date}}
+					</ion-col>
+					<ion-col class="table-border">
+						{{avail.status}}
+					</ion-col>
+				</ion-row>
+			</ion-item>
+		</ion-card-content>
+		<ion-item-divider color="light"></ion-item-divider>
+		<ion-item>			
+			<ion-row no-padding>
+				<ion-col>
+					<button ion-button clear small color="danger" icon-start (click)="dismiss()">
+						<ion-icon name='ios-close'></ion-icon>
+						Close
+					</button>
+				</ion-col>
+				<ion-col text-center>
+					<button ion-button clear small color="danger" icon-start>
+						<ion-icon name='ios-fastforward'></ion-icon>
+						Next
+					</button>
+				</ion-col>
+				<ion-col text-right>
+					<button ion-button clear small color="danger" icon-start>
+						<ion-icon name='share-alt'></ion-icon>
+						Share
+					</button>
+				</ion-col>
+			</ion-row>
+		</ion-item>
+
+	</ion-card>
+</ion-content>

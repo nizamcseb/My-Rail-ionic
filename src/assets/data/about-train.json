@@ -1,0 +1,38 @@
+{
+  "response_code": 200,
+  "debit" : 1,
+  "train": {
+    "number": "12155",
+    "name": "BHOPAL EXPRESS",
+    "days": [
+      {
+        "code": "MON",
+        "runs": "Y"
+      },
+      {
+        "code": "TUE",
+        "runs": "N"
+      },
+      {
+        "code": "WED",
+        "runs": "Y"
+      },
+      {
+        "code": "THU",
+        "runs": "Y"
+      },
+      {
+        "code": "FRI",
+        "runs": "N"
+      },
+      {
+        "code": "SAT",
+        "runs": "Y"
+      },
+      {
+        "code": "SUN",
+        "runs": "Y"
+      }
+    ]
+  }
+}

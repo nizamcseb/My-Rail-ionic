@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Profile</ion-title>
+    <ion-buttons end>
+     <button ion-button icon-right color="light" (click)="logout()"><ion-icon name="power" ios="ios-power" md="md-power"></ion-icon></button>
+       </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+
+    <img src={{UserData.photoURL}}/>
+
+    <ion-card-content>
+      <ion-card-title>
+        {{UserData.displayName || "Name (Not added)"}}
+      </ion-card-title>
+     </ion-card-content>
+
+   <!--  <ion-item>
+     <ion-icon name='person' item-start style="color: #d03e84" ios="ios-person" md="md-person"></ion-icon>
+     {{UserData.displayName || "Name (Not added)"}}
+   </ion-item> -->
+
+    <ion-item>
+      <ion-icon name='mail' item-start style="color: #55acee" ios="ios-mail" md="md-mail"></ion-icon>
+      {{UserData.email}}<!-- 
+      <ion-badge item-end>260k</ion-badge> -->
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='phone-portrait' item-start style="color: #d03e84" ios="ios-phone-portrait" md="md-phone-portrait"></ion-icon>
+      {{UserData.phoneNumber || "Phone (Not added)"}}<!-- 
+      <ion-badge item-end>260k</ion-badge> -->
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,5949 @@
+{
+    "total": 27,
+    "train": [
+        {
+            "number": "06794",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "FD/AY-RMM INAUGURAL SPL",
+            "src_departure_time": "06:10",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:50",
+            "dest_arrival_time": "13:00"
+        },
+        {
+            "number": "16127",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS GURUVAYUR EXP",
+            "src_departure_time": "08:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "13:15"
+        },
+        {
+            "number": "16853",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "CHOLAN EXP",
+            "src_departure_time": "08:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:45",
+            "dest_arrival_time": "16:15"
+        },
+        {
+            "number": "18496",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "BBS-RMM WEEKLY EXP.",
+            "src_departure_time": "08:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:15",
+            "dest_arrival_time": "16:05"
+        },
+        {
+            "number": "06025",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TPJ  SPL",
+            "src_departure_time": "09:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:30",
+            "dest_arrival_time": "15:15"
+        },
+        {
+            "number": "15120",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MUV-RMM EXPRESS",
+            "src_departure_time": "10:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "18:00"
+        },
+        {
+            "number": "12635",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "N",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-MDU VAIGAI EXP",
+            "src_departure_time": "13:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "18:30"
+        },
+        {
+            "number": "12605",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "N",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-KKDI PALLAVAN EXP",
+            "src_departure_time": "15:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:20",
+            "dest_arrival_time": "21:05"
+        },
+        {
+            "number": "16105",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS - TCN EXP",
+            "src_departure_time": "16:05",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:25",
+            "dest_arrival_time": "23:30"
+        },
+        {
+            "number": "12633",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-CAPE EXP.",
+            "src_departure_time": "17:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "22:30"
+        },
+        {
+            "number": "22661",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-RMM SUPERFAST EXP",
+            "src_departure_time": "17:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:05",
+            "dest_arrival_time": "22:50"
+        },
+        {
+            "number": "12689",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MAS-NCJ EXP.",
+            "src_departure_time": "18:20",
+            "from_station": {
+                "name": "CHENNAI CENTRAL",
+                "code": "MAS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI CENTRAL",
+                "code": "MAS"
+            },
+            "travel_time": "09:10",
+            "dest_arrival_time": "03:30"
+        },
+        {
+            "number": "12642",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "NZM-CAPE THIRUKKURAL EXP",
+            "src_departure_time": "18:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:40",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "12652",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "NZM-MDU EXP.",
+            "src_departure_time": "18:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:40",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "12667",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-NCJ EXP.",
+            "src_departure_time": "18:55",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:15",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "16101",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-RMM EXP",
+            "src_departure_time": "19:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:50",
+            "dest_arrival_time": "03:05"
+        },
+        {
+            "number": "12693",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TN PEARL CITY EXP.",
+            "src_departure_time": "19:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "04:55",
+            "dest_arrival_time": "00:25"
+        },
+        {
+            "number": "16723",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TVC ANANTHAPURI EXP",
+            "src_departure_time": "19:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:20",
+            "dest_arrival_time": "01:10"
+        },
+        {
+            "number": "12631",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TEN NELLAI EXP",
+            "src_departure_time": "20:10",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:25",
+            "dest_arrival_time": "01:35"
+        },
+        {
+            "number": "12663",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "HWH-TPJ EXPRESS",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "03:30"
+        },
+        {
+            "number": "12665",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "HWH-CAPE EXP",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:45",
+            "dest_arrival_time": "02:05"
+        },
+        {
+            "number": "16181",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-SCT SILAMBU BI-WKLY",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:45",
+            "dest_arrival_time": "02:05"
+        },
+        {
+            "number": "12661",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-SCT POTHIGAI EXP",
+            "src_departure_time": "20:55",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:15",
+            "dest_arrival_time": "02:10"
+        },
+        {
+            "number": "12637",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "PANDIAN EXP",
+            "src_departure_time": "21:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:25",
+            "dest_arrival_time": "02:45"
+        },
+        {
+            "number": "16859",
+            "to_station": {
+                "name": "TIRCHRPALI FORT",
+                "code": "TP"
+            },
+            "to": {
+                "name": "TIRCHRPALI FORT",
+                "code": "TP"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-MAQ EXPRESS",
+            "src_departure_time": "22:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:44",
+            "dest_arrival_time": "04:59"
+        },
+        {
+            "number": "12653",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "ROCKFORT EXP",
+            "src_departure_time": "22:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:00",
+            "dest_arrival_time": "04:30"
+        },
+        {
+            "number": "22623",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS MDU SUPERFAST",
+            "src_departure_time": "22:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "05:55"
+        }
+    ],
+    "trains": [
+        {
+            "number": "06794",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "FD/AY-RMM INAUGURAL SPL",
+            "src_departure_time": "06:10",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:50",
+            "dest_arrival_time": "13:00"
+        },
+        {
+            "number": "16127",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS GURUVAYUR EXP",
+            "src_departure_time": "08:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "13:15"
+        },
+        {
+            "number": "16853",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "CHOLAN EXP",
+            "src_departure_time": "08:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:45",
+            "dest_arrival_time": "16:15"
+        },
+        {
+            "number": "18496",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "BBS-RMM WEEKLY EXP.",
+            "src_departure_time": "08:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:15",
+            "dest_arrival_time": "16:05"
+        },
+        {
+            "number": "06025",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TPJ  SPL",
+            "src_departure_time": "09:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:30",
+            "dest_arrival_time": "15:15"
+        },
+        {
+            "number": "15120",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MUV-RMM EXPRESS",
+            "src_departure_time": "10:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "18:00"
+        },
+        {
+            "number": "12635",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "N",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-MDU VAIGAI EXP",
+            "src_departure_time": "13:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "18:30"
+        },
+        {
+            "number": "12605",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "N",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-KKDI PALLAVAN EXP",
+            "src_departure_time": "15:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:20",
+            "dest_arrival_time": "21:05"
+        },
+        {
+            "number": "16105",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS - TCN EXP",
+            "src_departure_time": "16:05",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:25",
+            "dest_arrival_time": "23:30"
+        },
+        {
+            "number": "12633",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-CAPE EXP.",
+            "src_departure_time": "17:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:00",
+            "dest_arrival_time": "22:30"
+        },
+        {
+            "number": "22661",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-RMM SUPERFAST EXP",
+            "src_departure_time": "17:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:05",
+            "dest_arrival_time": "22:50"
+        },
+        {
+            "number": "12689",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MAS-NCJ EXP.",
+            "src_departure_time": "18:20",
+            "from_station": {
+                "name": "CHENNAI CENTRAL",
+                "code": "MAS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI CENTRAL",
+                "code": "MAS"
+            },
+            "travel_time": "09:10",
+            "dest_arrival_time": "03:30"
+        },
+        {
+            "number": "12642",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "NZM-CAPE THIRUKKURAL EXP",
+            "src_departure_time": "18:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:40",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "12652",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "NZM-MDU EXP.",
+            "src_departure_time": "18:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:40",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "12667",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "-",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "-",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "-",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "-",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "-",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-NCJ EXP.",
+            "src_departure_time": "18:55",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:15",
+            "dest_arrival_time": "00:10"
+        },
+        {
+            "number": "16101",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-RMM EXP",
+            "src_departure_time": "19:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:50",
+            "dest_arrival_time": "03:05"
+        },
+        {
+            "number": "12693",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TN PEARL CITY EXP.",
+            "src_departure_time": "19:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "04:55",
+            "dest_arrival_time": "00:25"
+        },
+        {
+            "number": "16723",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TVC ANANTHAPURI EXP",
+            "src_departure_time": "19:50",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:20",
+            "dest_arrival_time": "01:10"
+        },
+        {
+            "number": "12631",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-TEN NELLAI EXP",
+            "src_departure_time": "20:10",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:25",
+            "dest_arrival_time": "01:35"
+        },
+        {
+            "number": "12663",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "HWH-TPJ EXPRESS",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "03:30"
+        },
+        {
+            "number": "12665",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "HWH-CAPE EXP",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:45",
+            "dest_arrival_time": "02:05"
+        },
+        {
+            "number": "16181",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-SCT SILAMBU BI-WKLY",
+            "src_departure_time": "20:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "N",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "N",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:45",
+            "dest_arrival_time": "02:05"
+        },
+        {
+            "number": "12661",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-SCT POTHIGAI EXP",
+            "src_departure_time": "20:55",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:15",
+            "dest_arrival_time": "02:10"
+        },
+        {
+            "number": "12637",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "PANDIAN EXP",
+            "src_departure_time": "21:20",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "05:25",
+            "dest_arrival_time": "02:45"
+        },
+        {
+            "number": "16859",
+            "to_station": {
+                "name": "TIRCHRPALI FORT",
+                "code": "TP"
+            },
+            "to": {
+                "name": "TIRCHRPALI FORT",
+                "code": "TP"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS-MAQ EXPRESS",
+            "src_departure_time": "22:15",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:44",
+            "dest_arrival_time": "04:59"
+        },
+        {
+            "number": "12653",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "ROCKFORT EXP",
+            "src_departure_time": "22:30",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "Y",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "Y",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "Y",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "Y",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "Y",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "06:00",
+            "dest_arrival_time": "04:30"
+        },
+        {
+            "number": "22623",
+            "to_station": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "to": {
+                "name": "TIRUCHCHIRAPALI",
+                "code": "TPJ"
+            },
+            "classes": [
+                {
+                    "available": "N",
+                    "class-name": "FIRST CLASS",
+                    "name": "FIRST CLASS",
+                    "code": "FC"
+                },
+                {
+                    "available": "N",
+                    "class-name": "SECOND SEATING",
+                    "name": "SECOND SEATING",
+                    "code": "2S"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "THIRD AC",
+                    "name": "THIRD AC",
+                    "code": "3A"
+                },
+                {
+                    "available": "N",
+                    "class-name": "AC CHAIR CAR",
+                    "name": "AC CHAIR CAR",
+                    "code": "CC"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "FIRST AC",
+                    "name": "FIRST AC",
+                    "code": "1A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SECOND AC",
+                    "name": "SECOND AC",
+                    "code": "2A"
+                },
+                {
+                    "available": "Y",
+                    "class-name": "SLEEPER CLASS",
+                    "name": "SLEEPER CLASS",
+                    "code": "SL"
+                },
+                {
+                    "available": "N",
+                    "class-name": "3rd AC ECONOMY",
+                    "name": "3rd AC ECONOMY",
+                    "code": "3E"
+                }
+            ],
+            "name": "MS MDU SUPERFAST",
+            "src_departure_time": "22:45",
+            "from_station": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "days": [
+                {
+                    "day-code": "MON",
+                    "runs": "N",
+                    "code": "MON"
+                },
+                {
+                    "day-code": "TUE",
+                    "runs": "N",
+                    "code": "TUE"
+                },
+                {
+                    "day-code": "WED",
+                    "runs": "N",
+                    "code": "WED"
+                },
+                {
+                    "day-code": "THU",
+                    "runs": "N",
+                    "code": "THU"
+                },
+                {
+                    "day-code": "FRI",
+                    "runs": "Y",
+                    "code": "FRI"
+                },
+                {
+                    "day-code": "SAT",
+                    "runs": "N",
+                    "code": "SAT"
+                },
+                {
+                    "day-code": "SUN",
+                    "runs": "Y",
+                    "code": "SUN"
+                }
+            ],
+            "from": {
+                "name": "CHENNAI EGMORE",
+                "code": "MS"
+            },
+            "travel_time": "07:10",
+            "dest_arrival_time": "05:55"
+        }
+    ],
+    "response_code": 200,
+    "debit": 1
+}
