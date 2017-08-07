@@ -7,51 +7,57 @@
 <ion-content padding>
 	<ion-item>
 		<ion-input [(ngModel)]="pnrnumber" type="number" placeholder="Enter 10 digit Pnr number" required></ion-input>
+		<button ion-button color="secondary" (click)="pnrCheck()" round small item-end>Check</button>
 	</ion-item>
-	<button ion-button color="secondary" (click)="pnrCheck()" round small>Check</button>
-<div *ngIf="statusResult.response_code == 200">
-	<!-- <div class="row header">
-		<div class="col"><b>CHART NOT PREPARED YET</b></div>
-	</div> -->
-	<div class="row header">
-		<div class="col col-lg-3"><b>PNR NO</b></div>	
-		<div class="col col-lg-3">{{statusResult.pnr}}</div>
-		<div class="col col-lg-3"><b>Date of journy</b></div>
-		<div class="col col-lg-3">{{statusResult.doj}}</div>
-	</div>
-	<div class="row header">
-		<div class="col col-lg-3"><b>From Station</b></div>	
-		<div class="col col-lg-3">{{from_station.name}} ({{from_station.code}})</div>
-		<div class="col col-lg-3"><b>To Station</b></div>	
-		<div class="col col-lg-3">{{to_station.name}} ({{to_station.code}})</div>
-	</div>
-	<div class="row header">
-		<div class="col col-lg-3"><b>Boarding Point</b></div>	
-		<div class="col col-lg-3">{{boarding_point.name}} ({{boarding_point.code}})</div>
-		<div class="col col-lg-3"><b>Reservation Upto</b></div>	
-		<div class="col col-lg-3">{{reservation_upto.name}} ({{reservation_upto.code}})</div>
-	</div>
-	<div class="row header">
-		<div class="col col-lg-3"><b>Train</b></div>	
-		<div class="col col-lg-3">{{train.name}} ({{train.number}})</div>
-		<div class="col col-lg-3"><b>Journy Class</b></div>	
-		<div class="col col-lg-3">{{journey_class.name}} ({{journey_class.code}})</div>
-	</div>
-	<br>
-	<div class="row header">
-		<div class="col"><b>Passenger</b></div>
-		<div class="col"><b>Coach Position</b></div>
-		<div class="col"><b>Booking Status</b></div>
-		<div class="col"><b>Current Status</b></div>
-	</div>	
+	
+	<div *ngIf="statusResult.response_code == 200">	
+		<ion-card>
+			<!-- <img src="assets/imgs/seats-2.jpg"/> -->
+			<ion-card-content>
+				<ion-card-title>
+					<ion-icon name="train" item-start large></ion-icon><b> {{statusResult.train.name}} ({{statusResult.train.number}})</b>
+				</ion-card-title>
+				<ion-item>
+				<ion-icon name="grid" item-start normal color="primary"></ion-icon>
+					<h2><b>Pnr Number</b></h2>
+					<p>{{statusResult.pnr}}</p>
+				</ion-item>
+				<ion-item>
+				<ion-icon name="calendar" item-start normal color="5933cc"></ion-icon>
+					<h2><b>Date of journy</b></h2>
+					<p>{{statusResult.pnr}}</p>
+				</ion-item>
+				<ion-item>
+				<ion-icon name="star" item-start normal color="secondary"></ion-icon>
+					<h2><b>Class</b></h2>
+					<p>{{statusResult.journey_class.name}} ({{statusResult.journey_class.code}})</p>
+				</ion-item>
+				<ion-item>
+				<ion-icon name="pin" item-start normal color="from"></ion-icon>
+					<h2><b>From</b></h2>
+					<p>{{statusResult.from_station.name}}({{statusResult.from_station.code}})</p>
+				</ion-item>
+				<ion-item>
+				<ion-icon name="pin" item-start normal color="to"></ion-icon>
+					<h2><b>To</b></h2>
+					<p>{{statusResult.to_station.name}}({{statusResult.to_station.code}})</p>
+				</ion-item>
+				<div *ngFor="let pstatus of statusResult.passengers">
 
-	<div class="row" *ngFor="let pstatus of passengers">
-		<div class="col">{{pstatus.no}}</div>
-		<div class="col">{{pstatus.coach_position}}</div>
-		<div class="col">{{pstatus.booking_status}}</div>
-		<div class="col">{{pstatus.current_status}}</div>
-	</div>	   
-</div>
-
-
+					<ion-card>		
+						<ion-item>
+							<ion-avatar item-start>
+								<img src="assets/imgs/profile_avatar.png">
+							</ion-avatar>
+							<h2><b>Passenger {{pstatus.no}}</b></h2>
+							<p class="p-font-size">Current Status: <b>{{pstatus.current_status}}</b></p>
+							<p class="p-font-size">Coach Position: <b>{{pstatus.coach_position}}</b></p>
+							<p class="p-font-size">Booking Status: <b>{{pstatus.booking_status}}</b></p>
+						</ion-item>						  				
+					</ion-card>
+				</div>
+			</ion-card-content>
+			<ion-item-divider color="light"></ion-item-divider>			
+		</ion-card>
+	</div>
 </ion-content>

@@ -124,5 +124,14 @@ export class SeatAvailabilityPage {
 		this.dateOfJrny = dd+'-'+mm+'-'+yyyy;
 	}
 
+	onUpdateToggle(event){
+		console.log('test ',event);
+		if(event == true){
+			this.remoteService.envi = "prod";
+		}else{
+			this.remoteService.envi = "dev";
+		}
+	}
+
 }
 
