@@ -1,1 +1,22 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content" id="menu-material">
+    <ion-content>
+      <div class="menu-header">
+        <!--material-design-background-->
+        <img class="user-avatar round" style="height:90px;max-width:90px;" [src]="UserData.photoURL || placeholder" onerror="this.src='assets/imgs/girl-avatar.png'"
+        />
+        <p class="name"><b>{{UserData.displayName}}</b></p>
+        <p class="e-mail"><b>{{UserData.email}}</b></p>
+      </div>
+      <ion-list>
+        <button menuClose="left" ion-item detail-none *ngFor="let p of pages" (click)="openPage(p)">        
+        <ion-icon name="{{p.icon}}" item-left [ngClass]="{'active-menu-item':(p.active)}"></ion-icon>
+        <label [ngClass]="{'active-menu-item':(p.active)}">{{p.title}}</label>
+      </button>
+      <button menuClose="left" ion-item detail-none (click)="logout()">        
+        <ion-icon name="power" item-left></ion-icon>
+        <label>Logout</label>
+      </button>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+<ion-nav id="nav" #content swipeBackEnabled="false" [root]="rootPage"></ion-nav>

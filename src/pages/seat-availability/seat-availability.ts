@@ -58,7 +58,8 @@ export class SeatAvailabilityPage {
 
 	}
 	searchTrains(){
-		this.searchResult = [];
+		if(this.stn_from_code && this.stn_to_code && this.dateOfJrny){
+			this.searchResult = [];
 		this.sClass = "";
 		this.Loader("start");
 		new Promise(resolve => {this.remoteService.trainBwStations(this.stn_from_code,this.stn_to_code,this.dateOfJrny).subscribe((data)=>{
@@ -67,6 +68,10 @@ export class SeatAvailabilityPage {
 			this.Loader("stop");
 		});
 	});
+	}else{
+		alert("Please select all mandatory fields");
+	}
+		
 	}
 	Loader(key){
 		if(key == "start"){
@@ -79,6 +84,8 @@ export class SeatAvailabilityPage {
 		}
 	}
 	checkAvailability(trainName,trainNumber,fromStationName,fromStationCode,toStationName,toStationCode,srcDepTime,dstArrvlTime,totalDuration){
+
+		if(this.sClass && this.rQuota){		
 		this.Loader("start");
 		console.log(trainName,trainNumber,fromStationName,fromStationCode,toStationName,toStationCode,srcDepTime,dstArrvlTime,totalDuration);
 		new Promise(resolve => {this.remoteService.checkSeatAvailability(trainNumber,fromStationCode,toStationCode,this.sClass,this.rQuota,this.dateOfJrny).subscribe((data)=>{
@@ -100,6 +107,9 @@ export class SeatAvailabilityPage {
 			availabilityMdl.present();
 		});
 	});
+	}else{
+		alert("Please select all mandatory fields");
+	}
 	}
 	getQuota(quota){
 		this.rQuota = quota;
@@ -122,6 +132,15 @@ export class SeatAvailabilityPage {
 			mm='0'+mm;
 		} 
 		this.dateOfJrny = dd+'-'+mm+'-'+yyyy;
+	}
+
+	onUpdateToggle(event){
+		console.log('test ',event);
+		if(event == true){
+			this.remoteService.envi = "prod";
+		}else{
+			this.remoteService.envi = "dev";
+		}
 	}
 
 }

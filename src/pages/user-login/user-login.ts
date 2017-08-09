@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
 
 import { Dashboard } from '../dashboard/dashboard';
 import { UserSignup } from '../user-signup/user-signup';
@@ -32,12 +32,14 @@ export class UserLogin {
     public navParams: NavParams,
     public platform: Platform,
     public facebook:Facebook,
+    private menu:MenuController,
     public storageSp:StorageProvider
     ) {
+this.menu.swipeEnable(false);
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad UserLogin');
+    console.log('ionViewDidLoad UserLogin');    
   }
 
   dashboardPage(){ this.navCtrl.push(Dashboard); }

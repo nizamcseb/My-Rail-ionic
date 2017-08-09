@@ -13,8 +13,8 @@ for more info on providers and Angular DI.
     */
 @Injectable()
 export class RemoteServiceProvider {
-    //public host = "prod";
-    public host = "dev";
+    public envi = "prod";
+    //public envi = "dev";
     constructor(public http: Http) {
         console.log('Hello RemoteServiceProvider Provider');
     }
@@ -22,7 +22,7 @@ export class RemoteServiceProvider {
 
     getPnrStatus(pnrnumber: number) {
 
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/pnrstatus.json")
             .map((res:Response) => res.json());
         }else{
@@ -35,11 +35,11 @@ export class RemoteServiceProvider {
     }
     getAboutTrain(train) {
 
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/about-train.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/name-number/train/"+train+"/apikey/o951qjct/")
+            return  this.http.get("http://api.railwayapi.com/v2/route/train/"+train+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());  
         }
@@ -47,7 +47,7 @@ export class RemoteServiceProvider {
 
     }
     searchTrain(train) {
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/train-search.json")
             .map((res:Response) => res.json());
         }else{
@@ -59,7 +59,7 @@ export class RemoteServiceProvider {
 
     }
     searchStations(station) {
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/station-search.json")
             .map((res:Response) => res.json());
         }else{
@@ -71,7 +71,7 @@ export class RemoteServiceProvider {
 
     }
     trainBwStations(source,dest,date) {
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/train-bw-stations.json")
             .map((res:Response) => res.json());
         }else{
@@ -83,7 +83,7 @@ export class RemoteServiceProvider {
 
     }
     checkSeatAvailability(trainNumber,fromStation,toStation,sClass,rQuota,dateOfJrny) {
-        if(this.host == "dev"){
+        if(this.envi == "dev"){
             return this.http.get("assets/data/seat-availability.json")
             .map((res:Response) => res.json());
         }else{
