@@ -23,13 +23,6 @@ export class PnrStatusPage {
 
    loader;
     public statusResult = [];
-    passengers = [];
-    from_station = [];
-    to_station = [];
-    boarding_point = [];
-    reservation_upto = [];
-    train = [];
-    journey_class = [];
     private currentUser: firebase.User;
     public pnrnumber;
     constructor(
@@ -47,11 +40,16 @@ export class PnrStatusPage {
 
 
     pnrCheck(){
-        this.getPnrStatus(this.pnrnumber);
+        if(this.pnrnumber && this.pnrnumber.length == 10){
+            this.getPnrStatus(this.pnrnumber);
         this.loader = this.ldngCtrl.create({
             content: "Please wait...",
         });
-        this.loader.present();        
+        this.loader.present();   
+    }else{
+        alert("Please enter correct PNR number");
+    }
+             
     }
 
     getPnrStatus(pnr){
@@ -62,23 +60,6 @@ export class PnrStatusPage {
                 alert("Please check you PNR number or Try after sometime");
             }
             this.statusResult = data;            
-            this.from_station = data.from_station;
-            this.to_station = data.to_station;
-            this.boarding_point = data.boarding_point;
-            this.reservation_upto = data.reservation_upto;
-            this.train = data.train;
-            this.journey_class = data.journey_class;
-            for(var i = 0; i < data.passengers.length; i++) {
-                //console.log("passengers no=",data.passengers[i].no);
-                this.passengers.push(
-                {
-                    no: data.passengers[i].no, 
-                    coach_position: data.passengers[i].coach_position,
-                    current_status: data.passengers[i].current_status,
-                    booking_status: data.passengers[i].booking_status
-                }
-                );
-            }
             this.loader.dismiss();            
             
         });

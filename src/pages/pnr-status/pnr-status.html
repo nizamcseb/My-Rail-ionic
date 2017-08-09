@@ -1,5 +1,10 @@
 <ion-header>
 	<ion-navbar>
+	<ion-buttons left>
+      <button ion-button icon-only menuToggle="left">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
 		<ion-title>Pnr Status</ion-title>		
 	</ion-navbar>
 </ion-header>
@@ -25,7 +30,7 @@
 				<ion-item>
 				<ion-icon name="calendar" item-start normal color="5933cc"></ion-icon>
 					<h2><b>Date of journy</b></h2>
-					<p>{{statusResult.pnr}}</p>
+					<p>{{statusResult.doj}}</p>
 				</ion-item>
 				<ion-item>
 				<ion-icon name="star" item-start normal color="secondary"></ion-icon>
@@ -35,12 +40,12 @@
 				<ion-item>
 				<ion-icon name="pin" item-start normal color="from"></ion-icon>
 					<h2><b>From</b></h2>
-					<p>{{statusResult.from_station.name}}({{statusResult.from_station.code}})</p>
+					<p>{{statusResult.from_station.name}} ({{statusResult.from_station.code}})</p>
 				</ion-item>
 				<ion-item>
 				<ion-icon name="pin" item-start normal color="to"></ion-icon>
 					<h2><b>To</b></h2>
-					<p>{{statusResult.to_station.name}}({{statusResult.to_station.code}})</p>
+					<p>{{statusResult.to_station.name}} ({{statusResult.to_station.code}})</p>
 				</ion-item>
 				<div *ngFor="let pstatus of statusResult.passengers">
 

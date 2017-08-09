@@ -13,8 +13,8 @@ for more info on providers and Angular DI.
     */
 @Injectable()
 export class RemoteServiceProvider {
-    //public envi = "prod";
-    public envi = "dev";
+    public envi = "prod";
+    //public envi = "dev";
     constructor(public http: Http) {
         console.log('Hello RemoteServiceProvider Provider');
     }
@@ -39,7 +39,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/about-train.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/name-number/train/"+train+"/apikey/o951qjct/")
+            return  this.http.get("http://api.railwayapi.com/v2/route/train/"+train+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());  
         }

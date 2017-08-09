@@ -1,38 +1,754 @@
 {
   "response_code": 200,
-  "debit" : 1,
   "train": {
-    "number": "12155",
-    "name": "BHOPAL EXPRESS",
     "days": [
       {
         "code": "MON",
-        "runs": "Y"
+        "day-code": "MON",
+        "runs": "N"
       },
       {
         "code": "TUE",
+        "day-code": "TUE",
         "runs": "N"
       },
       {
         "code": "WED",
+        "day-code": "WED",
         "runs": "Y"
       },
       {
         "code": "THU",
-        "runs": "Y"
-      },
-      {
-        "code": "FRI",
+        "day-code": "THU",
         "runs": "N"
       },
       {
-        "code": "SAT",
+        "code": "FRI",
+        "day-code": "FRI",
         "runs": "Y"
       },
       {
+        "code": "SAT",
+        "day-code": "SAT",
+        "runs": "N"
+      },
+      {
         "code": "SUN",
-        "runs": "Y"
+        "day-code": "SUN",
+        "runs": "N"
       }
-    ]
-  }
+    ],
+    "classes": [
+      {
+        "code": "SL",
+        "class-code": "SL",
+        "available": "Y"
+      },
+      {
+        "code": "2A",
+        "class-code": "2A",
+        "available": "N"
+      },
+      {
+        "code": "3A",
+        "class-code": "3A",
+        "available": "Y"
+      },
+      {
+        "code": "CC",
+        "class-code": "CC",
+        "available": "N"
+      },
+      {
+        "code": "2S",
+        "class-code": "2S",
+        "available": "N"
+      },
+      {
+        "code": "FC",
+        "class-code": "FC",
+        "available": "N"
+      },
+      {
+        "code": "3E",
+        "class-code": "3E",
+        "available": "N"
+      },
+      {
+        "code": "1A",
+        "class-code": "1A",
+        "available": "N"
+      }
+    ],
+    "name": "SADBHAWNA EXP",
+    "number": "14007"
+  },
+  "route": [
+    {
+      "halt": -1,
+      "schdep": "23:55",
+      "scharr": "SOURCE",
+      "fullname": "RAXAUL JN",
+      "state": null,
+      "station": {
+        "code": "RXL",
+        "lat": 26.9868646,
+        "lng": 84.8447217,
+        "name": "RAXAUL JN"
+      },
+      "lng": 84.8447217,
+      "distance": 0,
+      "code": "RXL",
+      "day": 1,
+      "lat": 26.9868646,
+      "no": 1
+    },
+    {
+      "halt": 2,
+      "schdep": "00:58",
+      "scharr": "00:56",
+      "fullname": "BAIRAGNIA",
+      "state": null,
+      "station": {
+        "code": "BGU",
+        "lat": 26.7374482,
+        "lng": 85.2759646,
+        "name": "BAIRAGNIA"
+      },
+      "lng": 85.2759646,
+      "distance": 53,
+      "code": "BGU",
+      "day": 2,
+      "lat": 26.7374482,
+      "no": 2
+    },
+    {
+      "halt": 5,
+      "schdep": "01:50",
+      "scharr": "01:45",
+      "fullname": "SITAMARHI",
+      "state": null,
+      "station": {
+        "code": "SMI",
+        "lat": 26.666667,
+        "lng": 85.5,
+        "name": "SITAMARHI"
+      },
+      "lng": 85.5,
+      "distance": 82,
+      "code": "SMI",
+      "day": 2,
+      "lat": 26.666667,
+      "no": 3
+    },
+    {
+      "halt": 2,
+      "schdep": "02:10",
+      "scharr": "02:08",
+      "fullname": "RUNNISAIDPUR",
+      "state": null,
+      "station": {
+        "code": "RUSD",
+        "lat": 26.3888887,
+        "lng": 85.5043671,
+        "name": "RUNNISAIDPUR"
+      },
+      "lng": 85.5043671,
+      "distance": 105,
+      "code": "RUSD",
+      "day": 2,
+      "lat": 26.3888887,
+      "no": 4
+    },
+    {
+      "halt": 30,
+      "schdep": "04:00",
+      "scharr": "03:30",
+      "fullname": "MUZAFFARPUR JN",
+      "state": null,
+      "station": {
+        "code": "MFP",
+        "lat": 26.1218988,
+        "lng": 85.3791128,
+        "name": "MUZAFFARPUR JN"
+      },
+      "lng": 85.3791128,
+      "distance": 146,
+      "code": "MFP",
+      "day": 2,
+      "lat": 26.1218988,
+      "no": 5
+    },
+    {
+      "halt": 5,
+      "schdep": "05:10",
+      "scharr": "05:05",
+      "fullname": "HAJIPUR JN",
+      "state": null,
+      "station": {
+        "code": "HJP",
+        "lat": 25.7021728,
+        "lng": 85.2155034,
+        "name": "HAJIPUR JN"
+      },
+      "lng": 85.2155034,
+      "distance": 200,
+      "code": "HJP",
+      "day": 2,
+      "lat": 25.7021728,
+      "no": 6
+    },
+    {
+      "halt": 2,
+      "schdep": "05:22",
+      "scharr": "05:20",
+      "fullname": "SONPUR JN",
+      "state": null,
+      "station": {
+        "code": "SEE",
+        "lat": 25.6971188,
+        "lng": 85.1685995,
+        "name": "SONPUR JN"
+      },
+      "lng": 85.1685995,
+      "distance": 206,
+      "code": "SEE",
+      "day": 2,
+      "lat": 25.6971188,
+      "no": 7
+    },
+    {
+      "halt": 2,
+      "schdep": "05:43",
+      "scharr": "05:41",
+      "fullname": "DIGHWARA",
+      "state": null,
+      "station": {
+        "code": "DGA",
+        "lat": 25.7446924,
+        "lng": 85.0137884,
+        "name": "DIGHWARA"
+      },
+      "lng": 85.0137884,
+      "distance": 229,
+      "code": "DGA",
+      "day": 2,
+      "lat": 25.7446924,
+      "no": 8
+    },
+    {
+      "halt": 15,
+      "schdep": "06:40",
+      "scharr": "06:25",
+      "fullname": "CHHAPRA",
+      "state": null,
+      "station": {
+        "code": "CPR",
+        "lat": 25.7795649,
+        "lng": 84.74988859999999,
+        "name": "CHHAPRA"
+      },
+      "lng": 84.74988859999999,
+      "distance": 259,
+      "code": "CPR",
+      "day": 2,
+      "lat": 25.7795649,
+      "no": 9
+    },
+    {
+      "halt": 2,
+      "schdep": "07:06",
+      "scharr": "07:04",
+      "fullname": "SURAIMANPUR",
+      "state": null,
+      "station": {
+        "code": "SIP",
+        "lat": 25.8081883,
+        "lng": 84.4811296,
+        "name": "SURAIMANPUR"
+      },
+      "lng": 84.4811296,
+      "distance": 288,
+      "code": "SIP",
+      "day": 2,
+      "lat": 25.8081883,
+      "no": 10
+    },
+    {
+      "halt": 5,
+      "schdep": "07:50",
+      "scharr": "07:45",
+      "fullname": "BALLIA",
+      "state": null,
+      "station": {
+        "code": "BUI",
+        "lat": 25.833333,
+        "lng": 84.166667,
+        "name": "BALLIA"
+      },
+      "lng": 84.166667,
+      "distance": 324,
+      "code": "BUI",
+      "day": 2,
+      "lat": 25.833333,
+      "no": 11
+    },
+    {
+      "halt": 2,
+      "schdep": "08:29",
+      "scharr": "08:27",
+      "fullname": "YUSUFPUR",
+      "state": null,
+      "station": {
+        "code": "YFP",
+        "lat": 28.7836366,
+        "lng": 77.6500235,
+        "name": "YUSUFPUR"
+      },
+      "lng": 77.6500235,
+      "distance": 370,
+      "code": "YFP",
+      "day": 2,
+      "lat": 28.7836366,
+      "no": 12
+    },
+    {
+      "halt": 5,
+      "schdep": "08:55",
+      "scharr": "08:50",
+      "fullname": "GHAZIPUR CITY",
+      "state": null,
+      "station": {
+        "code": "GCT",
+        "lat": 25.58363,
+        "lng": 83.5681593,
+        "name": "GHAZIPUR CITY"
+      },
+      "lng": 83.5681593,
+      "distance": 390,
+      "code": "GCT",
+      "day": 2,
+      "lat": 25.58363,
+      "no": 13
+    },
+    {
+      "halt": 2,
+      "schdep": "09:23",
+      "scharr": "09:21",
+      "fullname": "NANDGANJ",
+      "state": null,
+      "station": {
+        "code": "NDJ",
+        "lat": 25.5408406,
+        "lng": 83.3976335,
+        "name": "NANDGANJ"
+      },
+      "lng": 83.3976335,
+      "distance": 407,
+      "code": "NDJ",
+      "day": 2,
+      "lat": 25.5408406,
+      "no": 14
+    },
+    {
+      "halt": 2,
+      "schdep": "10:17",
+      "scharr": "10:15",
+      "fullname": "AUNRIHAR JN",
+      "state": null,
+      "station": {
+        "code": "ARJ",
+        "lat": 25.5450383,
+        "lng": 83.1875079,
+        "name": "AUNRIHAR JN"
+      },
+      "lng": 83.1875079,
+      "distance": 430,
+      "code": "ARJ",
+      "day": 2,
+      "lat": 25.5450383,
+      "no": 15
+    },
+    {
+      "halt": 1,
+      "schdep": "11:17",
+      "scharr": "11:16",
+      "fullname": "VARANASI CITY",
+      "state": null,
+      "station": {
+        "code": "BCY",
+        "lat": 25.3346395,
+        "lng": 83.0145644,
+        "name": "VARANASI CITY"
+      },
+      "lng": 83.0145644,
+      "distance": 461,
+      "code": "BCY",
+      "day": 2,
+      "lat": 25.3346395,
+      "no": 16
+    },
+    {
+      "halt": 10,
+      "schdep": "11:45",
+      "scharr": "11:35",
+      "fullname": "VARANASI JN",
+      "state": null,
+      "station": {
+        "code": "BSB",
+        "lat": 25.32742,
+        "lng": 82.9860535,
+        "name": "VARANASI JN"
+      },
+      "lng": 82.9860535,
+      "distance": 465,
+      "code": "BSB",
+      "day": 2,
+      "lat": 25.32742,
+      "no": 17
+    },
+    {
+      "halt": 4,
+      "schdep": "12:44",
+      "scharr": "12:40",
+      "fullname": "JAUNPUR CITY",
+      "state": null,
+      "station": {
+        "code": "JOP",
+        "lat": 25.7472,
+        "lng": 82.689,
+        "name": "JAUNPUR CITY"
+      },
+      "lng": 82.689,
+      "distance": 522,
+      "code": "JOP",
+      "day": 2,
+      "lat": 25.7472,
+      "no": 18
+    },
+    {
+      "halt": 1,
+      "schdep": "13:50",
+      "scharr": "13:49",
+      "fullname": "LAMBHUA",
+      "state": null,
+      "station": {
+        "code": "LBA",
+        "lat": 26.1402711,
+        "lng": 82.22708850000001,
+        "name": "LAMBHUA"
+      },
+      "lng": 82.22708850000001,
+      "distance": 586,
+      "code": "LBA",
+      "day": 2,
+      "lat": 26.1402711,
+      "no": 19
+    },
+    {
+      "halt": 15,
+      "schdep": "15:30",
+      "scharr": "15:15",
+      "fullname": "SULTANPUR",
+      "state": null,
+      "station": {
+        "code": "SLN",
+        "lat": 26.25,
+        "lng": 82,
+        "name": "SULTANPUR"
+      },
+      "lng": 82,
+      "distance": 608,
+      "code": "SLN",
+      "day": 2,
+      "lat": 26.25,
+      "no": 20
+    },
+    {
+      "halt": 1,
+      "schdep": "15:56",
+      "scharr": "15:55",
+      "fullname": "MUSAFIR KHANA",
+      "state": null,
+      "station": {
+        "code": "MFKA",
+        "lat": 26.3746851,
+        "lng": 81.8019391,
+        "name": "MUSAFIR KHANA"
+      },
+      "lng": 81.8019391,
+      "distance": 640,
+      "code": "MFKA",
+      "day": 2,
+      "lat": 26.3746851,
+      "no": 21
+    },
+    {
+      "halt": 1,
+      "schdep": "16:14",
+      "scharr": "16:13",
+      "fullname": "NIHALGARH",
+      "state": null,
+      "station": {
+        "code": "NHH",
+        "lat": 31.5380192,
+        "lng": 75.4082506,
+        "name": "NIHALGARH"
+      },
+      "lng": 75.4082506,
+      "distance": 659,
+      "code": "NHH",
+      "day": 2,
+      "lat": 31.5380192,
+      "no": 22
+    },
+    {
+      "halt": 15,
+      "schdep": "18:40",
+      "scharr": "18:25",
+      "fullname": "LUCKNOW",
+      "state": null,
+      "station": {
+        "code": "LKO",
+        "lat": 26.8466937,
+        "lng": 80.94616599999999,
+        "name": "LUCKNOW"
+      },
+      "lng": 80.94616599999999,
+      "distance": 748,
+      "code": "LKO",
+      "day": 2,
+      "lat": 26.8466937,
+      "no": 23
+    },
+    {
+      "halt": 2,
+      "schdep": "19:13",
+      "scharr": "19:11",
+      "fullname": "ALAMNAGAR",
+      "state": null,
+      "station": {
+        "code": "AMG",
+        "lat": 25.5662194,
+        "lng": 86.89815929999999,
+        "name": "ALAMNAGAR"
+      },
+      "lng": 86.89815929999999,
+      "distance": 754,
+      "code": "AMG",
+      "day": 2,
+      "lat": 25.5662194,
+      "no": 24
+    },
+    {
+      "halt": 5,
+      "schdep": "20:32",
+      "scharr": "20:27",
+      "fullname": "HARDOI",
+      "state": null,
+      "station": {
+        "code": "HRI",
+        "lat": 27.4164715,
+        "lng": 80.2473372,
+        "name": "HARDOI"
+      },
+      "lng": 80.2473372,
+      "distance": 850,
+      "code": "HRI",
+      "day": 2,
+      "lat": 27.4164715,
+      "no": 25
+    },
+    {
+      "halt": 5,
+      "schdep": "21:45",
+      "scharr": "21:40",
+      "fullname": "SHAHJEHANPUR",
+      "state": null,
+      "station": {
+        "code": "SPN",
+        "lat": 27.883744,
+        "lng": 79.9122455,
+        "name": "SHAHJEHANPUR"
+      },
+      "lng": 79.9122455,
+      "distance": 912,
+      "code": "SPN",
+      "day": 2,
+      "lat": 27.883744,
+      "no": 26
+    },
+    {
+      "halt": 2,
+      "schdep": "23:20",
+      "scharr": "23:18",
+      "fullname": "AONLA",
+      "state": null,
+      "station": {
+        "code": "AO",
+        "lat": 28.2729454,
+        "lng": 79.1626658,
+        "name": "AONLA"
+      },
+      "lng": 79.1626658,
+      "distance": 1005,
+      "code": "AO",
+      "day": 2,
+      "lat": 28.2729454,
+      "no": 27
+    },
+    {
+      "halt": 5,
+      "schdep": "00:10",
+      "scharr": "00:05",
+      "fullname": "CHANDAUSI JN",
+      "state": null,
+      "station": {
+        "code": "CH",
+        "lat": 28.4586858,
+        "lng": 78.78038250000002,
+        "name": "CHANDAUSI JN"
+      },
+      "lng": 78.78038250000002,
+      "distance": 1047,
+      "code": "CH",
+      "day": 3,
+      "lat": 28.4586858,
+      "no": 28
+    },
+    {
+      "halt": 10,
+      "schdep": "01:20",
+      "scharr": "01:10",
+      "fullname": "MORADABAD",
+      "state": null,
+      "station": {
+        "code": "MB",
+        "lat": 28.8386481,
+        "lng": 78.7733286,
+        "name": "MORADABAD"
+      },
+      "lng": 78.7733286,
+      "distance": 1091,
+      "code": "MB",
+      "day": 3,
+      "lat": 28.8386481,
+      "no": 29
+    },
+    {
+      "halt": 2,
+      "schdep": "01:50",
+      "scharr": "01:48",
+      "fullname": "AMROHA",
+      "state": null,
+      "station": {
+        "code": "AMRO",
+        "lat": 28.9043537,
+        "lng": 78.4673426,
+        "name": "AMROHA"
+      },
+      "lng": 78.4673426,
+      "distance": 1122,
+      "code": "AMRO",
+      "day": 3,
+      "lat": 28.9043537,
+      "no": 30
+    },
+    {
+      "halt": 2,
+      "schdep": "02:52",
+      "scharr": "02:50",
+      "fullname": "HAPUR",
+      "state": null,
+      "station": {
+        "code": "HPU",
+        "lat": 28.7299677,
+        "lng": 77.775499,
+        "name": "HAPUR"
+      },
+      "lng": 77.775499,
+      "distance": 1195,
+      "code": "HPU",
+      "day": 3,
+      "lat": 28.7299677,
+      "no": 31
+    },
+    {
+      "halt": 2,
+      "schdep": "03:08",
+      "scharr": "03:06",
+      "fullname": "PILKHUA",
+      "state": null,
+      "station": {
+        "code": "PKW",
+        "lat": 28.7075751,
+        "lng": 77.656476,
+        "name": "PILKHUA"
+      },
+      "lng": 77.656476,
+      "distance": 1207,
+      "code": "PKW",
+      "day": 3,
+      "lat": 28.7075751,
+      "no": 32
+    },
+    {
+      "halt": 2,
+      "schdep": "04:02",
+      "scharr": "04:00",
+      "fullname": "GHAZIABAD",
+      "state": null,
+      "station": {
+        "code": "GZB",
+        "lat": 28.6691565,
+        "lng": 77.45375779999999,
+        "name": "GHAZIABAD"
+      },
+      "lng": 77.45375779999999,
+      "distance": 1232,
+      "code": "GZB",
+      "day": 3,
+      "lat": 28.6691565,
+      "no": 33
+    },
+    {
+      "halt": 20,
+      "schdep": "05:10",
+      "scharr": "04:50",
+      "fullname": "DELHI",
+      "state": null,
+      "station": {
+        "code": "DLI",
+        "lat": 28.6517178,
+        "lng": 77.2219388,
+        "name": "DELHI"
+      },
+      "lng": 77.2219388,
+      "distance": 1252,
+      "code": "DLI",
+      "day": 3,
+      "lat": 28.6517178,
+      "no": 34
+    },
+    {
+      "halt": -1,
+      "schdep": "DEST",
+      "scharr": "05:40",
+      "fullname": "DELHI SARAI ROHILLA",
+      "state": null,
+      "station": {
+        "code": "DEE",
+        "lat": 28.6628187,
+        "lng": 77.1867616,
+        "name": "DELHI SARAI ROHILLA"
+      },
+      "lng": 77.1867616,
+      "distance": 1256,
+      "code": "DEE",
+      "day": 3,
+      "lat": 28.6628187,
+      "no": 35
+    }
+  ],
+  "debit": 1
 }

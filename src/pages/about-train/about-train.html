@@ -6,38 +6,104 @@ Ionic pages and navigation.
 -->
 <ion-header>
 	<ion-navbar>
+		<ion-buttons left>
+			<button ion-button icon-only menuToggle="left">
+				<ion-icon name="menu"></ion-icon>
+			</button>
+		</ion-buttons>
 		<ion-title>About train</ion-title>
 	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
 	<ion-item>
-		<!-- <ion-input type="text" placeholder="Enter Train Name / Number" [(ngModel)]="train"></ion-input> -->
 		<ion-searchbar [(ngModel)]="train" (ionInput)="getTrainList(train)" autocorrect="off" placeholder="Train Name/Number" [showCancelButton]="true" (ionCancel)="dismiss()"></ion-searchbar>
 	</ion-item>
 	<ion-list *ngIf="searchResult">
-	    <ion-item *ngFor="let trains of searchResult.trains" tappable (click)="getAboutTrain(trains.number)">
-	      {{trains.name}} ({{trains.number}})
-	    </ion-item>
-	  </ion-list>
-	<!-- <button ion-button color="secondary" (click)="getAboutTrain(train)" round small>Go</button> -->
+		<ion-item *ngFor="let trains of searchResult.trains" tappable (click)="getAboutTrain(trains.number)">
+			{{trains.name}} ({{trains.number}})
+		</ion-item>
+	</ion-list>
 	<div *ngIf="statusResult.response_code == 200">
 
 		<ion-card>
-			<!-- <img src="img/nin-live.png"/> -->
+			<img src="assets/imgs/train.jpg"/>
 			<ion-card-content>
 				<ion-card-title>
 					{{statusResult.train.name}} ({{statusResult.train.number}})
 				</ion-card-title>
-				<div class="row">
-					<div class="col" *ngFor="let train of statusResult.train.days">
-						<div class="col-12 lg-bagnd"><b>{{train.code}}</b></div>
-						<!-- <div class="col-12 center avail-clr" *ngIf="train.runs == 'Y'">{{train.runs}}</div> -->
-						<div class="col-12 center">{{train.runs}}</div>
-					</div>
-				</div>
+				<ion-card>
+					<ion-card-title>Running Days</ion-card-title>
+					<ion-card-content>
+						<div class="row text-center">
+							<div class="col" *ngFor="let train of statusResult.train.days">
+								<ion-grid>
+									<ion-row justify-content-center>
+										<ion-col class="lg-bagnd" [ngClass]="{'clr-green':(train.runs == 'Y')}">{{train.code}}
+										</ion-col>								
+									</ion-row>
+									<ion-row justify-content-center>
+										<ion-col [ngClass]="{'clr-green':(train.runs == 'Y')}">
+											{{train.runs}}
+										</ion-col>
+									</ion-row>								
+								</ion-grid>
+							</div>
+						</div>
+					</ion-card-content>
+				</ion-card>
+				<ion-card>
+					<ion-card-title>Available Classes</ion-card-title>
+					<ion-card-content>
+						<div class="row text-center">
+							<div class="col" *ngFor="let classes of statusResult.train.classes">
+								<ion-grid>
+									<ion-row justify-content-center>
+										<ion-col class="lg-bagnd" [ngClass]="{'clr-green':(classes.runs == 'Y')}">{{classes.code}}
+										</ion-col>								
+									</ion-row>
+									<ion-row justify-content-center>
+										<ion-col [ngClass]="{'clr-green':(classes.available == 'Y')}">
+											{{classes.available}}
+										</ion-col>
+									</ion-row>								
+								</ion-grid>
+							</div>
+						</div>
+					</ion-card-content>
+				</ion-card>				
 			</ion-card-content>
 		</ion-card>
+		<h3>Routs</h3>
+		<div *ngFor="let route of statusResult.route">
+			<ion-card>		
+				<ion-item>				
+					<ion-card-header><b>{{route.no}}. {{route.fullname}} ({{route.station.code}})</b></ion-card-header>
+					<ion-card-content>
+						<ion-grid>
+							<ion-row align-items-start>    
+								<ion-col *ngIf="route.scharr != 'SOURCE'">
+									<b>Arraival : </b>{{route.scharr}}
+								</ion-col>
+								<ion-col>
+									<b>Depature : </b>{{route.schdep}}
+								</ion-col>
+							</ion-row>
+							<ion-row align-items-start>
+								<ion-col>
+									<b>Day : </b>{{route.day}}
+								</ion-col>
+								<ion-col>
+									<b>Dis : </b>{{route.distance}} Km
+								</ion-col>
+								<ion-col *ngIf="route.halt >= '0'">
+									<b>Halt: </b>{{route.halt}} mins
+								</ion-col>
+							</ion-row>
+						</ion-grid>
+					</ion-card-content>
+				</ion-item>						  				
+			</ion-card>
+		</div>
 	</div>
-
 </ion-content>
