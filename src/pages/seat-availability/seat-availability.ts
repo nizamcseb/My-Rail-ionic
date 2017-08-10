@@ -62,6 +62,7 @@ export class SeatAvailabilityPage {
 			this.searchResult = [];
 		this.sClass = "";
 		this.Loader("start");
+		console.log(this.stn_from_code,this.stn_to_code,this.dateOfJrny);
 		new Promise(resolve => {this.remoteService.trainBwStations(this.stn_from_code,this.stn_to_code,this.dateOfJrny).subscribe((data)=>{
 			console.log('about train = ',data);
 			this.searchResult = data;
