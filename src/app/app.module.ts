@@ -35,6 +35,8 @@ import { AutoCompleteModule } from 'ionic2-auto-complete';
 import {RlTagInputModule} from 'angular2-tag-input';
 import { DatePicker } from 'ionic2-date-picker/ionic2-date-picker';
 
+import { AdMobFree } from '@ionic-native/admob-free';
+
 import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';
 import { StorageProvider } from '../providers/storage/storage';
@@ -120,6 +122,7 @@ firebase.initializeApp(firebaseConfig);
     StatusBar,
     SplashScreen,
     Facebook,
+    AdMobFree,
    [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider],
     StorageProvider
     
