@@ -75,6 +75,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/train-bw-stations.json")
             .map((res:Response) => res.json());
         }else{
+            console.log("http://api.railwayapi.com/v2/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/");
             return  this.http.get("http://api.railwayapi.com/v2/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json()); 

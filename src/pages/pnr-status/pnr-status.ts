@@ -5,7 +5,7 @@ import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
 import { Http, Response } from '@angular/http';
 import { Push, PushToken } from '@ionic/cloud-angular';
 import { UserLogin } from '../user-login/user-login';
-
+import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig } from '@ionic-native/admob-free';
 import {Storage} from '@ionic/storage';
 import * as firebase from 'firebase/app';
 
@@ -26,6 +26,7 @@ export class PnrStatusPage {
     private currentUser: firebase.User;
     public pnrnumber;
     constructor(
+        private admobFree : AdMobFree,
         public ldngCtrl: LoadingController,
         public navCtrl: NavController, 
         public app: App, 
@@ -41,6 +42,7 @@ export class PnrStatusPage {
 
     pnrCheck(){
         if(this.pnrnumber && this.pnrnumber.length == 10){
+            this.showInterstitialAds();
             this.getPnrStatus(this.pnrnumber);
         this.loader = this.ldngCtrl.create({
             content: "Please wait...",
@@ -52,7 +54,7 @@ export class PnrStatusPage {
              
     }
 
-    getPnrStatus(pnr){
+    getPnrStatus(pnr){        
         new Promise(resolve => {this.remoteService.getPnrStatus(pnr).subscribe((data)=>{
             console.log('pnr-status = ',data); //504 and 304 invalid// 200 ok 
             if(data.response_code != 200){
@@ -64,6 +66,20 @@ export class PnrStatusPage {
             
         });
     });
+    }
+    showInterstitialAds(){
+    const InterstitialConfig: AdMobFreeInterstitialConfig = {
+    id: 'ca-app-pub-2564877565940708/9050568484',
+    isTesting: false,
+    autoShow: true
+    };
+    this.admobFree.interstitial.config(InterstitialConfig);
+
+    this.admobFree.interstitial.prepare()
+    .then(() => {
+        this.admobFree.interstitial.show()
+    })
+    .catch(e => console.log(e));    
     }
 
 
