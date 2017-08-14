@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController, ViewController, App, LoadingController } from 'ionic-angular';
+import { NavController, ViewController, App, LoadingController, Platform } from 'ionic-angular';
 import { RemoteServiceProvider } from '../../providers/remote-service/remote-service';
-import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig } from '@ionic-native/admob-free';
-
+import { AdmobServiceProvider } from '../../providers/admob-service/admob-service';
 /**
 * Generated class for the AboutTrainPage page.
 *
@@ -18,7 +17,8 @@ export class AboutTrainPage {
   public statusResult = [];
   public searchResult = [];
 
-  constructor(private admobFree : AdMobFree , public viewCtrl: ViewController, private remoteService : RemoteServiceProvider,public ldngCtrl : LoadingController) {
+  constructor(public platform : Platform, private admobService : AdmobServiceProvider, public viewCtrl: ViewController, private remoteService : RemoteServiceProvider,public ldngCtrl : LoadingController) {
+  this.admobService.showInterstitialAds();
   }
 
   ionViewDidLoad() {
@@ -26,7 +26,7 @@ export class AboutTrainPage {
   }
 
   getAboutTrain(train){
-    this.showInterstitialAds();
+    this.admobService.showInterstitialAds();
     this.Loader("start");
     this.searchResult = [];
     //this.viewCtrl.dismiss(train);
@@ -67,19 +67,4 @@ export class AboutTrainPage {
       this.loader.dismiss();
     }
   }
-  showInterstitialAds(){
-    const InterstitialConfig: AdMobFreeInterstitialConfig = {
-      id: 'ca-app-pub-2564877565940708/9050568484',
-      isTesting: false,
-      autoShow: true
-    };
-    this.admobFree.interstitial.config(InterstitialConfig);
-
-    this.admobFree.interstitial.prepare()
-    .then(() => {
-      this.admobFree.interstitial.show()
-    })
-    .catch(e => console.log(e));    
-  }
-
 }

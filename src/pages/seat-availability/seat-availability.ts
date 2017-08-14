@@ -5,12 +5,8 @@ import { ModalController } from 'ionic-angular';
 import { SearchStationModalPage } from '../search-station-modal/search-station-modal';
 import { AvailabilityModalPage } from '../availability-modal/availability-modal';
 import { RemoteServiceProvider } from '../../providers/remote-service/remote-service';
-import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig } from '@ionic-native/admob-free';
-const bannerConfig: AdMobFreeBannerConfig = {
-	id: 'ca-app-pub-2564877565940708/4616499458',
-	isTesting: false,
-	autoShow: true
-};
+import { AdmobServiceProvider } from '../../providers/admob-service/admob-service';
+
 @Component({
 	selector: 'page-seat-availability',
 	templateUrl: 'seat-availability.html',
@@ -31,10 +27,10 @@ export class SeatAvailabilityPage {
 		public platform: Platform,
 		public navCtrl: NavController,
 		private remoteService : RemoteServiceProvider,
+		private admobService : AdmobServiceProvider,
 		public modlCtrl: ModalController,
 		public datePicker: DatePicker,
-		public ldngCtrl : LoadingController,
-		private admobFree : AdMobFree 
+		public ldngCtrl : LoadingController
 		) {
 		this.datePicker.onDateSelected.subscribe( 
 			(date) => {				
@@ -42,8 +38,7 @@ export class SeatAvailabilityPage {
 				this.formatDate(date);
 				console.log(this.dateOfJrny);
 			});
-		this.showBannerAd();
-
+		this.admobService.showInterstitialAds();
 	}
 	showCalendar(){
 		this.datePicker.showCalendar();
@@ -68,7 +63,7 @@ export class SeatAvailabilityPage {
 	}
 	searchTrains(){		
 		if(this.stn_from_code && this.stn_to_code && this.dateOfJrny){	
-			this.showInterstitialAds();		
+			this.admobService.showInterstitialAds();		
 			this.searchResult = [];
 			this.sClass = "";
 			this.Loader("start");
@@ -153,30 +148,6 @@ export class SeatAvailabilityPage {
 			this.remoteService.envi = "dev";
 		}
 	}
-	showBannerAd(){
-		if(this.platform.is('cordova')){			
-			this.admobFree.banner.config(bannerConfig);
-
-			this.admobFree.banner.prepare()
-			.then(() => {
-				this.admobFree.banner.show()
-			})
-			.catch(e => console.log(e));    
-		}  
-	}
-	showInterstitialAds(){
-		const InterstitialConfig: AdMobFreeInterstitialConfig = {
-			id: 'ca-app-pub-2564877565940708/9050568484',
-			isTesting: false,
-			autoShow: true
-		};
-		this.admobFree.interstitial.config(InterstitialConfig);
-
-		this.admobFree.interstitial.prepare()
-		.then(() => {
-			this.admobFree.interstitial.show()
-		})
-		.catch(e => console.log(e));    
-	}  
+	
 }
 

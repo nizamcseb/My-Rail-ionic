@@ -9,6 +9,8 @@ import { UserProfilePage } from '../pages/user-profile/user-profile';
 import { AboutPage } from '../pages/about/about';
 import { Subject } from 'rxjs';
 import { Storage } from '@ionic/storage';
+import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
+
 
 import {
     Push,
@@ -36,6 +38,7 @@ export class MyApp {
         public splashScreen: SplashScreen, 
         public push: Push,
         private storage: Storage,
+        private admobService : AdmobServiceProvider,
         private app: App
         ) {
         this.initializeApp();
@@ -55,7 +58,7 @@ export class MyApp {
         this.pages = [
         { title: 'Home', component: TabsPage, active: true, icon: 'home' },
         { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
-        { title: 'About Us', component: AboutPage, active: false, icon: 'people' }
+        { title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' }
 
         ];
         this.activePage.subscribe((selectedPage: any) => {
@@ -63,7 +66,7 @@ export class MyApp {
                 page.active = page.title === selectedPage.title;
             });
         });
-
+        this.admobService.showBannerAd();
     }
     initializeApp() {   
         this.platform.ready().then(() => {
@@ -128,18 +131,22 @@ export class MyApp {
     }
     openPage(page){
         console.log('page',page);
-        this.nav.setRoot(page.component);
-        this.activePage.next(page);
+        if(page.component == "rewardVideo"){
+            this.admobService.showVideoAds();
+        }else{
+            //this.admobService.showInterstitialAds();
+            this.nav.setRoot(page.component);
+            this.activePage.next(page);
+        }
+
     }
     rightMenuClick(item) {
         this.rightMenuItems.map(menuItem => menuItem.active = false);
         item.active = true;
     }
-    closeMenu(){
-        alert('test');
-    }
     logout(){
+        this.admobService.showInterstitialAds();
         this.storage.clear();
         this.app.getRootNav().setRoot(UserLogin);
-    }
+    }    
 }

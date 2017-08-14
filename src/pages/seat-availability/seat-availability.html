@@ -22,13 +22,13 @@ Ionic pages and navigation.
 <ion-content padding>
 	<ion-item>
 		<ion-label floating>From</ion-label>
-		<ion-input disabled="true" type="text" [(ngModel)]="stn_from_name"></ion-input>
+		<ion-input disabled="true" type="text" [(ngModel)]="stn_from_name" (click)="searchStation('from')"></ion-input>
 		<button ion-button icon-only item-right (click)="searchStation('from')"><ion-icon name='search'></ion-icon></button>
 	</ion-item>
 
 	<ion-item>
 		<ion-label floating>To</ion-label>
-		<ion-input disabled="true" type="text" [(ngModel)]="stn_to_name"></ion-input>
+		<ion-input disabled="true" type="text" [(ngModel)]="stn_to_name" (click)="searchStation('to')"></ion-input>
 		<button ion-button icon-only item-right (click)="searchStation('to')"><ion-icon name='search'></ion-icon></button>
 	</ion-item>
 	<ion-item>
