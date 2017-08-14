@@ -18,8 +18,6 @@ export class RemoteServiceProvider {
     constructor(public http: Http) {
         console.log('Hello RemoteServiceProvider Provider');
     }
-    //getApiUrl : string = "http://api.railwayapi.com/live/train/12605/doj/20170715/apikey/o951qjct/";
-
     getPnrStatus(pnrnumber: number) {
 
         if(this.envi == "dev"){
