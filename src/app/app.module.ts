@@ -40,6 +40,7 @@ import { AdMobFree } from '@ionic-native/admob-free';
 import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';
 import { StorageProvider } from '../providers/storage/storage';
+import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
 export const firebaseConfig={
   apiKey: "AIzaSyC2hOdKJHP2ExvyeTEa33oNgksTRonEGFQ",
         authDomain: "my-rail-6d70f.firebaseio.com",
@@ -123,8 +124,9 @@ firebase.initializeApp(firebaseConfig);
     SplashScreen,
     Facebook,
     AdMobFree,
-   [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider],
-    StorageProvider
+   [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider,AdmobServiceProvider],
+    StorageProvider,
+    AdmobServiceProvider
     
   ]
 })

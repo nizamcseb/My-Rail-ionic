@@ -1,32 +1,32 @@
 import { Component } from '@angular/core';
-import { NavController, App, LoadingController } from 'ionic-angular';
+import { NavController, App, LoadingController,Platform } from 'ionic-angular';
 import { RemoteServiceProvider } from '../../providers/remote-service/remote-service';
 import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
 import { Http, Response } from '@angular/http';
 import { Push, PushToken } from '@ionic/cloud-angular';
 import { UserLogin } from '../user-login/user-login';
-import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig } from '@ionic-native/admob-free';
 import {Storage} from '@ionic/storage';
 import * as firebase from 'firebase/app';
-
+import { AdmobServiceProvider } from '../../providers/admob-service/admob-service';
 /**
- * Generated class for the PnrStatusPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+* Generated class for the PnrStatusPage page.
+*
+* See http://ionicframework.com/docs/components/#navigation for more info
+* on Ionic pages and navigation.
+*/
 @Component({
-  selector: 'page-pnr-status',
-  templateUrl: 'pnr-status.html',
+    selector: 'page-pnr-status',
+    templateUrl: 'pnr-status.html',
 })
 export class PnrStatusPage {
 
-   loader;
+    loader;
     public statusResult = [];
     private currentUser: firebase.User;
     public pnrnumber;
     constructor(
-        private admobFree : AdMobFree,
+        private admobService : AdmobServiceProvider,
+        public platform : Platform,
         public ldngCtrl: LoadingController,
         public navCtrl: NavController, 
         public app: App, 
@@ -34,24 +34,24 @@ export class PnrStatusPage {
         public authSp : AuthServiceProvider,
         public push: Push,
         private storage: Storage) {
-
+        this.admobService.showInterstitialAds();
     }    
 
-    
+
 
 
     pnrCheck(){
         if(this.pnrnumber && this.pnrnumber.length == 10){
-            this.showInterstitialAds();
+            this.admobService.showInterstitialAds();
             this.getPnrStatus(this.pnrnumber);
-        this.loader = this.ldngCtrl.create({
-            content: "Please wait...",
-        });
-        this.loader.present();   
-    }else{
-        alert("Please enter correct PNR number");
-    }
-             
+            this.loader = this.ldngCtrl.create({
+                content: "Please wait...",
+            });
+            this.loader.present();   
+        }else{
+            alert("Please enter correct PNR number");
+        }
+
     }
 
     getPnrStatus(pnr){        
@@ -63,24 +63,8 @@ export class PnrStatusPage {
             }
             this.statusResult = data;            
             this.loader.dismiss();            
-            
+
         });
     });
     }
-    showInterstitialAds(){
-    const InterstitialConfig: AdMobFreeInterstitialConfig = {
-    id: 'ca-app-pub-2564877565940708/9050568484',
-    isTesting: false,
-    autoShow: true
-    };
-    this.admobFree.interstitial.config(InterstitialConfig);
-
-    this.admobFree.interstitial.prepare()
-    .then(() => {
-        this.admobFree.interstitial.show()
-    })
-    .catch(e => console.log(e));    
-    }
-
-
 }
