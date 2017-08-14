@@ -13,7 +13,8 @@ for more info on providers and Angular DI.
 @Injectable()
 export class AdmobServiceProvider {
 
-isTesting = true;
+isTesting = false;
+//isTesting = true;
 
 	constructor(public http: Http,
 		private admobFree : AdMobFree,
