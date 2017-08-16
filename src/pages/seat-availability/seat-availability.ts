@@ -38,7 +38,7 @@ export class SeatAvailabilityPage {
 				this.formatDate(date);
 				console.log(this.dateOfJrny);
 			});
-		this.admobService.showInterstitialAds();
+		//this.admobService.showInterstitialAds();
 	}
 	showCalendar(){
 		this.datePicker.showCalendar();

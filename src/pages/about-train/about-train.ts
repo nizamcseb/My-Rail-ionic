@@ -18,7 +18,7 @@ export class AboutTrainPage {
   public searchResult = [];
 
   constructor(public platform : Platform, private admobService : AdmobServiceProvider, public viewCtrl: ViewController, private remoteService : RemoteServiceProvider,public ldngCtrl : LoadingController) {
-  this.admobService.showInterstitialAds();
+  //this.admobService.showInterstitialAds();
   }
 
   ionViewDidLoad() {

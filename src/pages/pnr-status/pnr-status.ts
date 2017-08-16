@@ -34,7 +34,7 @@ export class PnrStatusPage {
         public authSp : AuthServiceProvider,
         public push: Push,
         private storage: Storage) {
-        this.admobService.showInterstitialAds();
+        //this.admobService.showInterstitialAds();
     }    
 
 

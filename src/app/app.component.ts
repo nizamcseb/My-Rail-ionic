@@ -10,7 +10,7 @@ import { AboutPage } from '../pages/about/about';
 import { Subject } from 'rxjs';
 import { Storage } from '@ionic/storage';
 import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
-
+import { CommonServiceProvider } from '../providers/common-service/common-service';
 
 import {
     Push,
@@ -39,6 +39,7 @@ export class MyApp {
         public push: Push,
         private storage: Storage,
         private admobService : AdmobServiceProvider,
+        private commonService : CommonServiceProvider,
         private app: App
         ) {
         this.initializeApp();
@@ -58,7 +59,8 @@ export class MyApp {
         this.pages = [
         { title: 'Home', component: TabsPage, active: true, icon: 'home' },
         { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
-        { title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' }
+        { title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' },
+        { title: 'Share App', component: 'shareApp', active: false, icon: 'share' }
 
         ];
         this.activePage.subscribe((selectedPage: any) => {
@@ -133,8 +135,9 @@ export class MyApp {
         console.log('page',page);
         if(page.component == "rewardVideo"){
             this.admobService.showVideoAds();
+        }else if(page.component == "shareApp"){            
+            this.commonService.shareApp();
         }else{
-            //this.admobService.showInterstitialAds();
             this.nav.setRoot(page.component);
             this.activePage.next(page);
         }
@@ -148,5 +151,5 @@ export class MyApp {
         this.admobService.showInterstitialAds();
         this.storage.clear();
         this.app.getRootNav().setRoot(UserLogin);
-    }    
+    }        
 }

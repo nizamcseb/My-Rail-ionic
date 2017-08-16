@@ -23,6 +23,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 import { RemoteServiceProvider } from '../providers/remote-service/remote-service';
+import { SocialSharing } from '@ionic-native/social-sharing';
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 import { AngularFireModule } from 'angularfire2';
@@ -41,6 +42,7 @@ import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';
 import { StorageProvider } from '../providers/storage/storage';
 import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
+import { CommonServiceProvider } from '../providers/common-service/common-service';
 export const firebaseConfig={
   apiKey: "AIzaSyC2hOdKJHP2ExvyeTEa33oNgksTRonEGFQ",
         authDomain: "my-rail-6d70f.firebaseio.com",
@@ -124,9 +126,11 @@ firebase.initializeApp(firebaseConfig);
     SplashScreen,
     Facebook,
     AdMobFree,
-   [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider,AdmobServiceProvider],
+    SocialSharing,
+   [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider,AdmobServiceProvider,CommonServiceProvider],
     StorageProvider,
-    AdmobServiceProvider
+    AdmobServiceProvider,
+    CommonServiceProvider
     
   ]
 })
