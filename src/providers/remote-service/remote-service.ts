@@ -13,8 +13,8 @@ for more info on providers and Angular DI.
     */
 @Injectable()
 export class RemoteServiceProvider {
-    public envi = "prod";
-    //public envi = "dev";
+    //public envi = "prod";
+    public envi = "dev";
     constructor(public http: Http) {
         console.log('Hello RemoteServiceProvider Provider');
     }

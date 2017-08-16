@@ -37,8 +37,8 @@ export class UserProfilePage {
     });
 
     this.UserData = result;
-    console.log(result);
-    console.log(this.UserData);
+    console.log('result',result);
+    console.log('this.UserData',this.UserData);
 
     
   });

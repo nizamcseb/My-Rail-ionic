@@ -57,9 +57,8 @@ this.menu.swipeEnable(false);
         .then((success) => {
             console.log("Firebase success: " + JSON.stringify(success));
             this.userProfile = success;
-            this.navCtrl.setRoot(TabsPage);
-            //console.log(result);
             this.storageSp.saveUserInfo(success);
+            this.navCtrl.setRoot(TabsPage);            
         })
         .catch((error) => {
             console.log("Firebase failure: " + JSON.stringify(error));

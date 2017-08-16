@@ -8,12 +8,12 @@
 				<ion-item>
 				<ion-icon name="grid" item-start normal color="primary"></ion-icon>
 					<h2><b>Class</b></h2>
-					<p>{{availabilityData.journey_class.name}} ({{availabilityData.journey_class.code}})</p>
+					<p>{{availabilityData.journey_class.name}} ({{availabilityData.journey_class.code? availabilityData.journey_class.code : trainData.trainClass}})</p>
 				</ion-item>
 				<ion-item>
 				<ion-icon name="calendar" item-start normal color="5933cc"></ion-icon>
 					<h2><b>Quota</b></h2>
-					<p>{{availabilityData.quota.name}} ({{availabilityData.quota.code}})</p>
+					<p>{{availabilityData.quota.name}} ({{availabilityData.quota.code? availabilityData.quota.code : trainData.trainQuota}})</p>
 				</ion-item>
 				<ion-item>
 				<ion-icon name="star" item-start normal color="secondary"></ion-icon>
@@ -30,8 +30,10 @@
 					<h2><b>To</b></h2>
 					<p>{{trainData.toStationName}} ({{trainData.toStationName}})</p>
 				</ion-item>
-				<div *ngFor="let avail of availabilityData.availability">
-
+				<ion-card *ngIf="availabilityData.availability.length == '0'">
+					Sorry!, This train may not be running at this day, Please choose another date.	 
+					</ion-card>
+				<div *ngFor="let avail of availabilityData.availability">					
 					<ion-card>		
 						<ion-item>
 							<ion-avatar item-start>

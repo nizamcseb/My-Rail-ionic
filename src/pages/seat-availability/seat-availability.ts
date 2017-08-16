@@ -15,6 +15,8 @@ import { AdmobServiceProvider } from '../../providers/admob-service/admob-servic
 export class SeatAvailabilityPage {
 	loader;
 	dateOfJrny;
+	dayOfJrny;
+	weekday = ["SUN",'MON','TUE','WED','THU','FRI','SAT'];
 	stn_from_name;
 	stn_to_name;
 	stn_from_code;
@@ -34,9 +36,9 @@ export class SeatAvailabilityPage {
 		) {
 		this.datePicker.onDateSelected.subscribe( 
 			(date) => {				
-				console.log(date);				
+				console.log(date);
 				this.formatDate(date);
-				console.log(this.dateOfJrny);
+				console.log(this.dateOfJrny,this.dayOfJrny);
 			});
 		//this.admobService.showInterstitialAds();
 	}
@@ -100,6 +102,8 @@ export class SeatAvailabilityPage {
 				let trainDtls = {
 					'trainName':trainName, 
 					'trainNumber': trainNumber,
+					'trainClass': this.sClass,
+					'trainQuota': this.rQuota,
 					'fromStationName':fromStationName,
 					'fromStationCode':fromStationCode,
 					'toStationName':toStationName,
@@ -127,6 +131,8 @@ export class SeatAvailabilityPage {
 	}
 	formatDate(date){
 		this.dateOfJrny = new Date(date);
+		let day = this.dateOfJrny.getDay();
+		this.dayOfJrny = this.weekday[day];
 		let dd = this.dateOfJrny.getDate();
 		let mm = this.dateOfJrny.getMonth()+1; //January is 0!
 
@@ -141,7 +147,7 @@ export class SeatAvailabilityPage {
 	}
 
 	onUpdateToggle(event){
-		console.log('test ',event);
+		console.log('environment ',event);
 		if(event == true){
 			this.remoteService.envi = "prod";
 		}else{
