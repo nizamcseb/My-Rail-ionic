@@ -3,6 +3,7 @@ import { Platform } from 'ionic-angular';
 import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig,AdMobFreeRewardVideoConfig } from '@ionic-native/admob-free';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { RemoteServiceProvider } from '../remote-service/remote-service';
 
 /*
 Generated class for the AdmobServiceProvider provider.
@@ -13,13 +14,19 @@ for more info on providers and Angular DI.
 @Injectable()
 export class AdmobServiceProvider {
 
+//isTesting = false;
 isTesting = false;
-//isTesting = true;
 
 	constructor(public http: Http,
 		private admobFree : AdMobFree,
-		public platform: Platform) {
-		console.log('Hello AdmobServiceProvider Provider');
+		public platform: Platform,
+		private remoteService : RemoteServiceProvider
+		) {
+		if(remoteService.envi == 'dev'){
+			this.isTesting = true;
+			console.log('Hello AdmobServiceProvider Provider');
+		}
+		
 	}
 	showBannerAd(){
 		const bannerConfig: AdMobFreeBannerConfig = {
