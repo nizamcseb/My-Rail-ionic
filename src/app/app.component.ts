@@ -60,7 +60,8 @@ export class MyApp {
         { title: 'Home', component: TabsPage, active: true, icon: 'home' },
         { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
         { title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' },
-        { title: 'Share App', component: 'shareApp', active: false, icon: 'share' }
+        { title: 'Share App', component: 'shareApp', active: false, icon: 'share' },
+        { title: 'Rating', component: 'rateApp', active: false, icon: 'star' }
 
         ];
         this.activePage.subscribe((selectedPage: any) => {
@@ -133,14 +134,22 @@ export class MyApp {
     }
     openPage(page){
         console.log('page',page);
-        if(page.component == "rewardVideo"){
-            this.admobService.showVideoAds();
-        }else if(page.component == "shareApp"){            
-            this.commonService.shareApp();
-        }else{
+        switch (page.component) {
+            case "rewardVideo":
+            this.admobService.showVideoAds();// code...
+            break;
+            case "shareApp":
+            this.commonService.shareApp();// code...
+            break;
+            case "rateApp":
+            this.commonService.rateApp();
+            break;
+
+            default:
             this.nav.setRoot(page.component);
             this.activePage.next(page);
-        }
+            break;
+        }        
 
     }
     rightMenuClick(item) {

@@ -37,9 +37,12 @@ import {RlTagInputModule} from 'angular2-tag-input';
 import { DatePicker } from 'ionic2-date-picker/ionic2-date-picker';
 
 import { AdMobFree } from '@ionic-native/admob-free';
+import { AppRate } from '@ionic-native/app-rate';
 
 import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';
+import {GooglePlus} from '@ionic-native/google-plus';
+import { TwitterConnect } from '@ionic-native/twitter-connect';
 import { StorageProvider } from '../providers/storage/storage';
 import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
 import { CommonServiceProvider } from '../providers/common-service/common-service';
@@ -125,7 +128,10 @@ firebase.initializeApp(firebaseConfig);
     StatusBar,
     SplashScreen,
     Facebook,
+    GooglePlus,
+    TwitterConnect,
     AdMobFree,
+    AppRate,
     SocialSharing,
    [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider,AdmobServiceProvider,CommonServiceProvider],
     StorageProvider,

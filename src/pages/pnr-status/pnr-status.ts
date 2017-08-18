@@ -8,6 +8,7 @@ import { UserLogin } from '../user-login/user-login';
 import {Storage} from '@ionic/storage';
 import * as firebase from 'firebase/app';
 import { AdmobServiceProvider } from '../../providers/admob-service/admob-service';
+import { CommonServiceProvider } from '../../providers/common-service/common-service';
 /**
 * Generated class for the PnrStatusPage page.
 *
@@ -33,8 +34,9 @@ export class PnrStatusPage {
         private remoteService : RemoteServiceProvider,
         public authSp : AuthServiceProvider,
         public push: Push,
+        public commonService: CommonServiceProvider,
         private storage: Storage) {
-        //this.admobService.showInterstitialAds();
+        this.admobService.showInterstitialAds();
     }    
 
 
@@ -66,5 +68,10 @@ export class PnrStatusPage {
 
         });
     });
+    }
+
+    share(key){
+        this.commonService.sharePnrStatus(key,this.statusResult);
+
     }
 }
