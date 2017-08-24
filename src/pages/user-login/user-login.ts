@@ -19,7 +19,6 @@ import {AngularFireAuth} from "angularfire2/auth"
 import {StorageProvider} from '../../providers/storage/storage';
 
 
-@IonicPage()
 @Component({
     selector: 'page-user-login',
     templateUrl: 'user-login.html',

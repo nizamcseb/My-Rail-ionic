@@ -10,7 +10,6 @@ import {User} from '../../models/user';
 import {AngularFireAuth} from "angularfire2/auth"
 
 
-@IonicPage()
 @Component({
   selector: 'page-user-forgotpassword',
   templateUrl: 'user-forgotpassword.html',

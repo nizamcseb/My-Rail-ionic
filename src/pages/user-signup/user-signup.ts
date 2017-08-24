@@ -18,7 +18,6 @@ import {AuthServiceProvider} from '../../providers/auth-service/auth-service';
 
 
 
-@IonicPage()
 @Component({
   selector: 'page-user-signup',
   templateUrl: 'user-signup.html',

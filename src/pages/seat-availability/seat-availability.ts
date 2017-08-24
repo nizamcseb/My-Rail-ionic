@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController,LoadingController, Platform } from 'ionic-angular';
-import { DatePicker } from 'ionic2-date-picker/ionic2-date-picker';
+import { DatePicker } from '@ionic-native/date-picker';
 import { ModalController } from 'ionic-angular';
 import { SearchStationModalPage } from '../search-station-modal/search-station-modal';
 import { AvailabilityModalPage } from '../availability-modal/availability-modal';
 import { RemoteServiceProvider } from '../../providers/remote-service/remote-service';
 import { AdmobServiceProvider } from '../../providers/admob-service/admob-service';
+import { CodePush } from '@ionic-native/code-push';
 
 @Component({
 	selector: 'page-seat-availability',
@@ -28,22 +29,37 @@ export class SeatAvailabilityPage {
 	constructor(
 		public platform: Platform,
 		public navCtrl: NavController,
+        public codePush: CodePush, 
 		private remoteService : RemoteServiceProvider,
 		private admobService : AdmobServiceProvider,
 		public modlCtrl: ModalController,
 		public datePicker: DatePicker,
 		public ldngCtrl : LoadingController
 		) {
-		this.datePicker.onDateSelected.subscribe( 
+		/*this.datePicker.onDateSelected.subscribe( 
 			(date) => {				
 				console.log(date);
 				this.formatDate(date);
 				console.log(this.dateOfJrny,this.dayOfJrny);
-			});
+			});*/
+		platform.ready().then(() => {
+			this.codePush.sync();
+		});
 		this.admobService.showBannerAd();
 	}
 	showCalendar(){
-		this.datePicker.showCalendar();
+		//this.datePicker.showCalendar();
+		this.datePicker.show({
+  date: new Date(),
+  mode: 'date',
+  androidTheme: this.datePicker.ANDROID_THEMES.THEME_HOLO_DARK
+}).then(
+  date => {
+  	console.log('Got date: ', date); 
+  	this.formatDate(date);
+  },
+  err => console.log('Error occurred while getting date: ', err)
+);
 	}
 	searchStation(key){
 		console.log(key);

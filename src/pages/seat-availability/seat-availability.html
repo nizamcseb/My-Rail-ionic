@@ -37,7 +37,7 @@ Ionic pages and navigation.
 		<button ion-button icon-only item-right (click)="showCalendar()"><ion-icon name='calendar'></ion-icon></button>
 		<!-- <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="dateofjourny"></ion-datetime> -->		
 	</ion-item>
-	<button ion-button full (click)="searchTrains()">Search Trains</button>	
+	<button ion-button full (click)="searchTrains()">Search Train</button>	
 
 	<div *ngIf="searchResult.response_code == 200">	
 		<ion-card *ngFor="let train of searchResult.trains">

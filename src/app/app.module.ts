@@ -11,7 +11,6 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { UserLogin } from '../pages/user-login/user-login';
 import { UserSignup } from '../pages/user-signup/user-signup';
 import { UserForgotpassword } from '../pages/user-forgotpassword/user-forgotpassword';
-import { Dashboard } from '../pages/dashboard/dashboard';
 import { PnrStatusPage } from '../pages/pnr-status/pnr-status';
 import { UserProfilePage } from '../pages/user-profile/user-profile';
 import { AboutTrainPage } from '../pages/about-train/about-train';
@@ -34,7 +33,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { AutoCompleteModule } from 'ionic2-auto-complete';
 
 import {RlTagInputModule} from 'angular2-tag-input';
-import { DatePicker } from 'ionic2-date-picker/ionic2-date-picker';
+import { DatePicker } from '@ionic-native/date-picker';
 
 import { AdMobFree } from '@ionic-native/admob-free';
 import { AppRate } from '@ionic-native/app-rate';
@@ -42,6 +41,7 @@ import { AppRate } from '@ionic-native/app-rate';
 import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';
 import {GooglePlus} from '@ionic-native/google-plus';
+import {CodePush} from '@ionic-native/code-push';
 import { TwitterConnect } from '@ionic-native/twitter-connect';
 import { StorageProvider } from '../providers/storage/storage';
 import { AdmobServiceProvider } from '../providers/admob-service/admob-service';
@@ -84,15 +84,13 @@ firebase.initializeApp(firebaseConfig);
     UserLogin,
     UserSignup,
     UserForgotpassword,
-    Dashboard,
     TabsPage,
     PnrStatusPage,
     UserProfilePage,
     AboutTrainPage,
     SeatAvailabilityPage,
     SearchStationModalPage,
-    AvailabilityModalPage,
-    DatePicker
+    AvailabilityModalPage    
   ],
   imports: [
     BrowserModule,
@@ -114,15 +112,13 @@ firebase.initializeApp(firebaseConfig);
     UserLogin,
     UserSignup,
     UserForgotpassword,
-    Dashboard,
     TabsPage,
     PnrStatusPage,
     UserProfilePage,
     AboutTrainPage,
     SeatAvailabilityPage,
     SearchStationModalPage,
-    AvailabilityModalPage,
-    DatePicker
+    AvailabilityModalPage,    
   ],
   providers: [
     StatusBar,
@@ -132,7 +128,9 @@ firebase.initializeApp(firebaseConfig);
     TwitterConnect,
     AdMobFree,
     AppRate,
+    CodePush,
     SocialSharing,
+    DatePicker,    
    [{provide: AuthServiceProvider, useClass: IonicErrorHandler, ErrorHandler},RemoteServiceProvider,AdmobServiceProvider,CommonServiceProvider],
     StorageProvider,
     AdmobServiceProvider,

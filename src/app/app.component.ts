@@ -3,6 +3,7 @@ import { Platform, MenuController, Nav, App} from 'ionic-angular';
 import { UserLogin } from '../pages/user-login/user-login';
 import { Dashboard } from '../pages/dashboard/dashboard';
 import { StatusBar } from '@ionic-native/status-bar';
+import { CodePush } from '@ionic-native/code-push';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../pages/tabs/tabs';
 import { UserProfilePage } from '../pages/user-profile/user-profile';
@@ -35,6 +36,7 @@ export class MyApp {
         public platform: Platform,
         public menu: MenuController, 
         public statusBar: StatusBar, 
+        public codePush: CodePush, 
         public splashScreen: SplashScreen, 
         public push: Push,
         private storage: Storage,
@@ -43,6 +45,7 @@ export class MyApp {
         private app: App
         ) {
         this.initializeApp();
+
         this.rightMenuItems = [
         { icon: 'home', active: true },
         { icon: 'alarm', active: false },
@@ -59,7 +62,7 @@ export class MyApp {
         this.pages = [
         { title: 'Home', component: TabsPage, active: true, icon: 'home' },
         { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
-        { title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' },
+        //{ title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' },
         { title: 'Share App', component: 'shareApp', active: false, icon: 'share' },
         { title: 'Rating', component: 'rateApp', active: false, icon: 'star' }
 
@@ -80,6 +83,8 @@ export class MyApp {
             this.splashScreen.hide();
             this.menu.enable(false, 'right');
             this.registerPush();
+            this.codePush.sync();
+            
         });
     }  
     checkLogin(){
