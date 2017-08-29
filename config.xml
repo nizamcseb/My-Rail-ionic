@@ -82,6 +82,7 @@
         <preference name="CodePushDeploymentKey" value="Ftl2jI92FTVY3R6_acK_y7mCQZdj43927497-b96b-4a90-acf9-7986cada7ba2" />
     </platform>
     <engine name="android" spec="^6.2.3" />
+    <engine name="browser" spec="^4.1.0" />
     <plugin name="cordova-plugin-admob-free" spec="^0.10.0" />
     <plugin name="cordova-plugin-apprate" spec="^1.3.0" />
     <plugin name="cordova-plugin-code-push" spec="^1.9.6-beta" />

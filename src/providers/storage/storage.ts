@@ -13,7 +13,6 @@ for more info on providers and Angular DI.
 export class StorageProvider {
 
 	constructor(public http: Http, private storage: Storage) {
-		console.log('Hello StorageProvider Provider');
 	}
 
 	saveUserInfo(data){  	

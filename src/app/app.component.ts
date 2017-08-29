@@ -58,7 +58,7 @@ export class MyApp {
         { icon: 'beer', active: false },
         { icon: 'power', active: false },
         ];
-
+        if (this.platform.is('android')) {
         this.pages = [
         { title: 'Home', component: TabsPage, active: true, icon: 'home' },
         { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
@@ -67,6 +67,12 @@ export class MyApp {
         { title: 'Rating', component: 'rateApp', active: false, icon: 'star' }
 
         ];
+    }else{
+        this.pages = [
+        { title: 'Home', component: TabsPage, active: true, icon: 'home' },
+        { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' }
+        ];
+    }
         this.activePage.subscribe((selectedPage: any) => {
             this.pages.map(page => {
                 page.active = page.title === selectedPage.title;
@@ -89,13 +95,13 @@ export class MyApp {
     }  
     checkLogin(){
         new Promise(resolve => {this.storage.get('uid').then((val) => {
-            console.log('Your user is  ', val);
+            //console.log('Your user is  ', val);
             if(val){
-                console.log("true");
+                //console.log("true");
                 this.rootPage = TabsPage;
                 this.getUser(['displayName','email','photoURL']);
             }else{
-                console.log("false");
+                //console.log("false");
                 this.nav.setRoot(UserLogin);
             }
 
@@ -115,30 +121,30 @@ export class MyApp {
             });
 
             this.UserData = result;
-            console.log(result);
-            console.log(this.UserData);
+            //console.log(result);
+            //console.log(this.UserData);
 
 
         });
     }
     registerPush() {
         // Check that we are on a device
-        if (this.platform.is('cordova')) {
+        if (this.platform.is('android')) {
             // Register push notifications with the push plugin
             this.push.register().then((t: PushToken) => {
-                console.log('Generated Token' + JSON.stringify(t));
+                //console.log('Generated Token' + JSON.stringify(t));
                 // Save the user with Ionic's user auth service
                 return this.push.saveToken(t);
             }).then( (t: PushToken) => {
-                console.log('Token Saved', t);
+                //console.log('Token Saved', t);
                 //this.listenForPush();
             }).catch( (err) => {
-                console.log('Error Saving Token: ' , err);
+                //console.log('Error Saving Token: ' , err);
             });
         }
     }
     openPage(page){
-        console.log('page',page);
+        //console.log('page',page);
         switch (page.component) {
             case "rewardVideo":
             this.admobService.showVideoAds();// code...

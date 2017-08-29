@@ -15,6 +15,7 @@ for more info on providers and Angular DI.
 export class RemoteServiceProvider {
     public envi = "prod";
     //public envi = "dev";
+    public railwayApiServer = "https://api.railwayapi.com/v2";
     constructor(public http: Http) {
         console.log('Hello RemoteServiceProvider Provider');
     }
@@ -24,7 +25,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/pnrstatus.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/pnr-status/pnr/"+pnrnumber+"/apikey/o951qjct/")
+            return  this.http.get(this.railwayApiServer+"/pnr-status/pnr/"+pnrnumber+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());
         }
@@ -37,7 +38,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/about-train.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/route/train/"+train+"/apikey/o951qjct/")
+            return  this.http.get(this.railwayApiServer+"/route/train/"+train+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());  
         }
@@ -49,7 +50,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/train-search.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/suggest-train/train/"+train+"/apikey/o951qjct/")
+            return  this.http.get(this.railwayApiServer+"/suggest-train/train/"+train+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());
         }
@@ -61,7 +62,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/station-search.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/suggest-station/name/"+station+"/apikey/o951qjct/")
+            return  this.http.get(this.railwayApiServer+"/suggest-station/name/"+station+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json()); 
         }
@@ -73,8 +74,8 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/train-bw-stations.json")
             .map((res:Response) => res.json());
         }else{
-            console.log("http://api.railwayapi.com/v2/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/");
-            return  this.http.get("http://api.railwayapi.com/v2/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/")
+            console.log(this.railwayApiServer+"/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/");
+            return  this.http.get(this.railwayApiServer+"/between/source/"+source+"/dest/"+dest+"/date/"+date+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json()); 
         }
@@ -86,7 +87,7 @@ export class RemoteServiceProvider {
             return this.http.get("assets/data/seat-availability.json")
             .map((res:Response) => res.json());
         }else{
-            return  this.http.get("http://api.railwayapi.com/v2/check-seat/train/"+trainNumber+"/source/"+fromStation+"/dest/"+toStation+"/date/"+dateOfJrny+"/class/"+sClass+"/quota/"+rQuota+"/apikey/o951qjct/")
+            return  this.http.get(this.railwayApiServer+"/check-seat/train/"+trainNumber+"/source/"+fromStation+"/dest/"+toStation+"/date/"+dateOfJrny+"/class/"+sClass+"/quota/"+rQuota+"/apikey/o951qjct/")
             .do((res : Response ) => console.log(res.json()))
             .map((res : Response ) => res.json());  
         }

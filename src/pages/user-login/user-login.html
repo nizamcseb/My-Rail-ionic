@@ -6,8 +6,8 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-
-    <ion-grid>
+<div text-center><img src="assets/imgs/icon.png" width="100" ></div>
+    <ion-grid *ngIf="platform.is('android')">
       <ion-row>
         <ion-col ><button ion-button block class="facebookButton" (click)="fbLogin()">Login With Facebook</button></ion-col>
         <ion-col ><button ion-button block color="light" (click)="gpLogin()">Login With Google</button></ion-col>
@@ -18,7 +18,7 @@
       </ion-row> -->
     </ion-grid>
 
-    <div class="hrLine"><span>Or</span></div>
+    <div *ngIf="platform.is('android')" class="hrLine"><span>Or</span></div>
 
     <ion-list no-lines padding-top>
       <ion-item>
