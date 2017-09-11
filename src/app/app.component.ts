@@ -59,20 +59,19 @@ export class MyApp {
         { icon: 'power', active: false },
         ];
         if (this.platform.is('android')) {
-        this.pages = [
-        { title: 'Home', component: TabsPage, active: true, icon: 'home' },
-        { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
-        //{ title: 'Reward Video', component: 'rewardVideo', active: false, icon: 'people' },
-        { title: 'Share App', component: 'shareApp', active: false, icon: 'share' },
-        { title: 'Rating', component: 'rateApp', active: false, icon: 'star' }
+            this.pages = [
+            { title: 'Home', component: TabsPage, active: true, icon: 'home' },
+            { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' },
+            { title: 'Share App', component: 'shareApp', active: false, icon: 'share' },
+            { title: 'Rating', component: 'rateApp', active: false, icon: 'star' }
 
-        ];
-    }else{
-        this.pages = [
-        { title: 'Home', component: TabsPage, active: true, icon: 'home' },
-        { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' }
-        ];
-    }
+            ];
+        }else{
+            this.pages = [
+            { title: 'Home', component: TabsPage, active: true, icon: 'home' },
+            { title: 'Profile', component: UserProfilePage, active: false, icon: 'person' }
+            ];
+        }
         this.activePage.subscribe((selectedPage: any) => {
             this.pages.map(page => {
                 page.active = page.title === selectedPage.title;
@@ -90,7 +89,7 @@ export class MyApp {
             this.menu.enable(false, 'right');
             this.registerPush();
             this.codePush.sync();
-            
+
         });
     }  
     checkLogin(){
@@ -132,14 +131,14 @@ export class MyApp {
         if (this.platform.is('android')) {
             // Register push notifications with the push plugin
             this.push.register().then((t: PushToken) => {
-                //console.log('Generated Token' + JSON.stringify(t));
+                console.log('Generated Token' + JSON.stringify(t));
                 // Save the user with Ionic's user auth service
                 return this.push.saveToken(t);
             }).then( (t: PushToken) => {
                 //console.log('Token Saved', t);
                 //this.listenForPush();
             }).catch( (err) => {
-                //console.log('Error Saving Token: ' , err);
+                console.log('Error Saving Token: ' , err);
             });
         }
     }

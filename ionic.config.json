@@ -1,5 +1,8 @@
 {
   "name": "My-Rail",
   "app_id": "9c79b89f",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

@@ -7,7 +7,7 @@ import { UserForgotpassword } from '../user-forgotpassword/user-forgotpassword';
 import { TabsPage } from '../tabs/tabs';
 
 import {User} from '../../models/user';
-import {AngularFireAuth} from "angularfire2/auth"
+import {AngularFireAuth} from "angularfire2/auth";
 
 import firebase from 'firebase';
 import {Facebook} from '@ionic-native/facebook';

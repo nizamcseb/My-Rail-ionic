@@ -8,6 +8,7 @@ import { TabsPage } from '../tabs/tabs';
 
 import {User} from '../../models/user';
 import {AngularFireAuth} from "angularfire2/auth"
+import firebase from 'firebase';
 
 
 @Component({
@@ -31,17 +32,14 @@ export class UserForgotpassword {
   signupPage(){ this.navCtrl.push(UserSignup); }
 
   async resetPasswd(user: User){
-    try{
-      const result = await this.afAuth.auth.sendPasswordResetEmail(user.email);
-      console.log(result);
-      if(result){
+
+    var auth = await firebase.auth();
+
+    auth.sendPasswordResetEmail(user.email).then(function() {
       alert("Password reset link sent your registerd Email id successfully.");
-      }
-    }catch(e){
-      console.error(e)
-      alert(e.message);
-    }
-    
+    }).catch(function(error) {
+      alert(error.message);
+    });
 
   }
 

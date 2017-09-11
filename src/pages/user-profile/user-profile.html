@@ -16,29 +16,39 @@
 
   <ion-card>
 
-    <img src={{UserData.photoURL}}/>
+    <img src={{userPhotoUrl}}/>
 
     <ion-card-content>
       <ion-card-title>
-        {{UserData.displayName || "Name (Not added)"}}
+        {{userName || "Name (Not added)"}}
       </ion-card-title>
      </ion-card-content>
 
    <!--  <ion-item>
      <ion-icon name='person' item-start style="color: #d03e84" ios="ios-person" md="md-person"></ion-icon>
-     {{UserData.displayName || "Name (Not added)"}}
+     {{userName || "Name (Not added)"}}
    </ion-item> -->
 
     <ion-item>
       <ion-icon name='mail' item-start style="color: #55acee" ios="ios-mail" md="md-mail"></ion-icon>
-      {{UserData.email || "Email (Not added)"}}<!-- 
-      <ion-badge item-end>260k</ion-badge> -->
+      {{userEmail || "Email (Not added)"}}      
+      <button *ngIf="!emailVerified" ion-button item-end round icon-end style="background-color: #d52f39; color: #fff" (click)="verify('email')">
+        Verify
+      </button>
+      <button *ngIf="emailVerified" ion-button item-end round icon-end disabled="true" style="background-color: #2eb82e; color: #fff">
+        Verified
+      </button>
     </ion-item>
 
     <ion-item>
       <ion-icon name='phone-portrait' item-start style="color: #d03e84" ios="ios-phone-portrait" md="md-phone-portrait"></ion-icon>
-      {{UserData.phoneNumber || "Phone (Not added)"}}<!-- 
-      <ion-badge item-end>260k</ion-badge> -->
+      {{UserData.phoneNumber || "Phone (Not added)"}}
+      <!-- <button *ngIf="!emailVerified" ion-button item-end round icon-end style="background-color: #d52f39; color: #fff" (click)="verify()">
+        Verify
+      </button>
+      <button *ngIf="emailVerified" ion-button item-end round icon-end disabled="true" style="background-color: #2eb82e; color: #fff">
+        Verified
+      </button> -->
     </ion-item>
 
   </ion-card>

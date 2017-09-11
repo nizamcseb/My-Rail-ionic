@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, App } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 import { UserLogin } from '../user-login/user-login';
+import { AlertController } from 'ionic-angular';
+import firebase from 'firebase';
 
 @Component({
   selector: 'page-user-profile',
@@ -9,46 +11,80 @@ import { UserLogin } from '../user-login/user-login';
 })
 export class UserProfilePage {
 
-	public UserData: any = {};
+  public UserData: any = {displayName : null,email: null,photoURL: null,emailVerified: null};
+  //public UserData = [displayName => null,email=> null,photoURL=> null,emailVerified=> null];
+  userName;
+  userEmail;
+  userPhotoUrl;
+  emailVerified;
+  userPhone;
+
   constructor(
-   public navCtrl: NavController,
-   public storage: Storage, 
-   public app: App, 
-   public navParams: NavParams) {
+    public navCtrl: NavController,
+    public storage: Storage, 
+    public alertCtrl: AlertController,
+    public app: App, 
+    public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
 
-  	this.getUser(['displayName','email','photoURL']);
-    console.log('ionViewDidLoad UserProfilePage ', this.UserData);
-    
+    this.getUser();
+    console.log('ionViewDidLoad UserProfilePage ', this.UserData);    
+
   }
 
-  getUser(keys: string[]) {
-  const promises = [];
+  getUser() {
+    var user = firebase.auth().currentUser;
+    var name, email, photoUrl, uid, emailVerified;
 
-  keys.forEach( key => promises.push(this.storage.get(key)) );
-
-  return Promise.all(promises).then( values => {
-    const result: any = {};
-    
-    values.map( (value, index) => { 
-      result[keys[index]] = value; 
-    });
-
-    this.UserData = result;
-    console.log('result',result);
-    console.log('this.UserData',this.UserData);
-
-    
-  });
-}
-
-logout(){
-        // Remove API token 
-        
-        this.storage.clear();
-        this.app.getRootNav().setRoot(UserLogin);
+    if (user != null) {
+      this.userName = user.displayName;
+      this.userEmail = user.email;
+      this.userPhotoUrl = user.photoURL;
+      this.emailVerified = user.emailVerified;
+      this.userPhone = user.phoneNumber;
+      //this.uid = user.uid;  // The user's ID, unique to the Firebase project. Do NOT use
+      // this value to authenticate with your backend server, if
+      // you have one. Use User.getToken() instead.
+      console.log('user-profile ',user);
     }
+  }  
+
+
+ async verify(key: string){
+    if(key === 'email'){
+
+      var user = await firebase.auth().currentUser;
+
+      user.sendEmailVerification().then(function() {
+        //this.successAlert()
+        alert('Verification link sent to your email address, please verify.');
+      }).catch(function(error) {
+        // An error happened.
+        alert(error.message);
+      });
+
+    }
+  }
+  successAlert(){
+    let confirm = this.alertCtrl.create({
+      title: 'Success',
+      message: 'Verification link sent to your email address, please verify.',
+      buttons: [        
+      {
+        text: 'Ok',
+        handler: () => {
+          console.log('Agree clicked');
+        }
+      }
+      ]
+    });
+    confirm.present();
+  }
+  logout(){
+    this.storage.clear();
+    this.app.getRootNav().setRoot(UserLogin);
+  }
 
 }
